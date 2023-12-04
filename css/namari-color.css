@@ -125,7 +125,12 @@ a:hover, #header.nav-solid nav a:hover {
 
 #banner {
     background: url("../images/banner-images/banner-image-11.png") no-repeat center top;
+    
     background-size:contain;
+    @media (max-width: 1000px) {
+        background-size:cover;
+    }
+    
 }
 
 
