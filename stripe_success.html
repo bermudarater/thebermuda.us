@@ -36,9 +36,13 @@
 
 <body>
     <div class="spinner"></div>
-    <p>Loading, please wait...</p>
+    <p>Please hold on as we create your portal. It will be ready shortly.</p>
 
     <script>
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
         // Helper function to get query parameters
         function getQueryParam(name) {
             const params = new URLSearchParams(window.location.search);
@@ -54,7 +58,9 @@
                 return;
             }
 
-            // Send initial request to webhook
+            await sleep(10000); // Wait for 10 seconds to complete registeration.
+
+            // save url to public store.
             const webhookUrl = `https://hooks.zapier.com/hooks/catch/18818819/2kwbixz/?session_id=${sessionId}`;
             try {
                 await fetch(webhookUrl, { method: "GET" });
@@ -68,29 +74,43 @@
             // Construct the poll URL with the session key
             const pollUrl = `https://store.zapier.com/api/records?secret=ec7bb534-270c-42a9-9923-7aec337e65ae&key=${sessionKey}`; const pollInterval = 5000; // 5 seconds
             const pollForRedirectUrl = async () => {
-                try {
-                    const response = await fetch(pollUrl);
-                    if (response.ok) {
-                        const data = await response.json();
+                const pollInterval = 5000; // 5 seconds
+                const maxDuration = 60000; // 1 minute
+                const startTime = Date.now(); // Record the start time
 
-                        // Extract the first value from the response object
-                        const redirectUrl = Object.values(data)[0];
+                const poll = async () => {
+                    try {
+                        const elapsed = Date.now() - startTime;
 
-                        if (redirectUrl) {
-                            // Redirect to the URL
-                            window.location.href = redirectUrl;
-                        } else {
-                            // Retry after 5 seconds if redirectUrl is not yet available
-                            setTimeout(pollForRedirectUrl, pollInterval);
+                        if (elapsed > maxDuration) {
+                            // Stop polling after 1 minute and show an error
+                            document.body.innerHTML = "<p>We encountered an issue. Please try again later.</p>";
+                            return;
                         }
-                    } else {
-                        console.error("Error fetching data:", response.statusText);
-                        setTimeout(pollForRedirectUrl, pollInterval);
+
+                        const response = await fetch(pollUrl);
+                        if (response.ok) {
+                            const data = await response.json();
+                            const redirectUrl = Object.values(data)[0];
+
+                            if (redirectUrl) {
+                                // Redirect to the URL if found
+                                window.location.href = redirectUrl;
+                            } else {
+                                // Retry after 5 seconds
+                                setTimeout(poll, pollInterval);
+                            }
+                        } else {
+                            console.error("Error fetching data:", response.statusText);
+                            setTimeout(poll, pollInterval);
+                        }
+                    } catch (error) {
+                        console.error("Polling error:", error);
+                        setTimeout(poll, pollInterval);
                     }
-                } catch (error) {
-                    console.error("Polling error:", error);
-                    setTimeout(pollForRedirectUrl, pollInterval);
-                }
+                };
+
+                poll();
             };
 
             pollForRedirectUrl();
