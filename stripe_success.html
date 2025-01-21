@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+    <style>
+        /* Spinner Styles */
+        .spinner {
+            border: 16px solid #f3f3f3;
+            border-top: 16px solid #3498db;
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            animation: spin 2s linear infinite;
+            margin: 100px auto;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="spinner"></div>
+    <p>Loading, please wait...</p>
+
+    <script>
+        // Helper function to get query parameters
+        function getQueryParam(name) {
+            const params = new URLSearchParams(window.location.search);
+            return params.get(name);
+        }
+
+        // Main function to handle the process
+        async function processRedirect() {
+            const sessionId = getQueryParam("session_id");
+            if (!sessionId) {
+                // Navigate to the root URL
+                window.location.href = "/";
+                return;
+            }
+
+            // Send initial request to webhook
+            const webhookUrl = `https://hooks.zapier.com/hooks/catch/18818819/2kwbixz/?session_id=${sessionId}`;
+            try {
+                await fetch(webhookUrl, { method: "GET" });
+            } catch (error) {
+                console.error("Error calling webhook:", error);
+            }
+
+            // Get the last 32 characters of the sessionId
+            const sessionKey = sessionId.slice(-32);
+
+            // Construct the poll URL with the session key
+            const pollUrl = `https://store.zapier.com/api/records?secret=ec7bb534-270c-42a9-9923-7aec337e65ae&key=${sessionKey}`; const pollInterval = 5000; // 5 seconds
+            const pollForRedirectUrl = async () => {
+                try {
+                    const response = await fetch(pollUrl);
+                    if (response.ok) {
+                        const data = await response.json();
+
+                        // Extract the first value from the response object
+                        const redirectUrl = Object.values(data)[0];
+
+                        if (redirectUrl) {
+                            // Redirect to the URL
+                            window.location.href = redirectUrl;
+                        } else {
+                            // Retry after 5 seconds if redirectUrl is not yet available
+                            setTimeout(pollForRedirectUrl, pollInterval);
+                        }
+                    } else {
+                        console.error("Error fetching data:", response.statusText);
+                        setTimeout(pollForRedirectUrl, pollInterval);
+                    }
+                } catch (error) {
+                    console.error("Polling error:", error);
+                    setTimeout(pollForRedirectUrl, pollInterval);
+                }
+            };
+
+            pollForRedirectUrl();
+        }
+
+        // Start the process
+        processRedirect();
+    </script>
+</body>
+
+</html>
