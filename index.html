@@ -342,59 +342,30 @@
                 <!--Content of the Right Side-->
                 <div class="col-3">
                     <div class="section-heading">
-                        <h3>BELIEVING</h3>
-                        <h2 class="section-title">Focusing on what matters most</h2>
-                        <p class="section-subtitle">We believe in the power of streamlined solutions and cutting-edge technology.</p>
+                        <h3>ABOUT US</h3>
+                        <h2 class="section-title">Transforming Insurance Through Innovation</h2>
+                        <p class="section-subtitle">We are driven by a belief in simplicity and the transformative power of technology.</p>
                     </div>
-                    <p>In a world inundated with complexity, we choose simplicity. We believe that by harnessing the latest advancements in insurance technology, we can empower you to achieve your goals effortlessly.
-                    </p>
-                    <p>
-                        Our belief extends to every facet of our platform. From providing lightning-fast quotes to seamless lead automation, we are dedicated to simplifying your journey. It's about believing that technology should enhance, not complicate, your processes.
-                        Join us in embracing a future where the focus is on what truly matters – your time, your clients, and your success. 
-                    </p>
-                    
-                    <!-- 1. The <iframe> (video player) will replace this <div> tag. -->
-                    <div id="player"></div>
-
-                    <script>
-                    // 2. This code loads the IFrame Player API code asynchronously.
-                    var tag = document.createElement('script');
-
-                    tag.src = "https://www.youtube.com/iframe_api";
-                    var firstScriptTag = document.getElementsByTagName('script')[0];
-                    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-                    // 3. This function creates an <iframe> (and YouTube player)
-                    //    after the API code downloads.
-                    var player;
-                    function onYouTubeIframeAPIReady() {
-                        player = new YT.Player('player', {
-                        width: '100%',
-                        videoId: 'yH3kcVJDqVY',
-                        playerVars: { 'autoplay': 0, 'playsinline': 0 },
-                        events: {
-                            'onReady': onPlayerReady
-                        }
-                        });
-                    }
-
-                    // 4. The API will call this function when the video player is ready.
-                    function onPlayerReady(event) {
-                        //event.target.mute();
-                        //event.target.playVideo();
-                    }
-                    </script>
-                    
+                    <p>Bermuda is a forward-thinking InsurTech company dedicated to transforming the insurance industry through digital innovation. Our mission is to empower insurance agencies by streamlining operations, enhancing customer experiences, and driving sales growth through automation.</p>
+                    <p>We offer a suite of intuitive tools designed to simplify the insurance quoting process. With our platform, agencies can provide instant Auto & Home quotes, manage real-time leads, and ensure seamless data integration—all accessible via mobile devices for on-the-go convenience.</p>
+                    <p>At Bermuda, we believe that technology should simplify, not complicate. Join us in embracing a future where digital solutions drive success and elevate the insurance experience for both agencies and their clients.</p>
                 </div>
                 <!--End Content Right Side-->
-
                 <div class="col-3">
                     <img src="images/focus-01.png" alt="Focus"/>
                 </div>
-
             </div>
 
 
+        </div>
+        <!--End of Content Section-->
+
+        <!--Content Section-->
+        <div class="scrollto clearfix">
+            <div class="row no-padding-bottom clearfix">
+            <div class="col-3"></div>
+            <!-- 1. The <iframe> (video player) will replace this <div> tag. -->
+            <div class="col-2" id="player"></div>
         </div>
         <!--End of Content Section-->
 
@@ -525,41 +496,74 @@
 
 
     <!--Footer-->
-    <footer id="landing-footer" class="clearfix">
-        <div class="row clearfix">
-            <p id="copyright" class="col-2">
-                <a target="_blank" href="privacy.html">Privacy Policy</a>
-                &nbsp;&nbsp;
-                <a target="_blank" href="terms.html">Terms & Conditions</a>
-            </p>
-           
-            <!--Social Icons in Footer-->
-             <ul class="col-2 social-icons">
-                <li>
-                    <a title="email" href="mailto:sales@thebermuda.us">
-                        <i class="fa fa-envelope fa-1x"></i><span>E-mail</span>
+    <footer id="landing-footer" class="enterprise-footer clearfix" style="background-color:#1c1c1c; color:#ffffff; padding:40px 0; font-size:14px;">
+
+    <div class="row clearfix" style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-start;">
+
+        <!-- Company Info -->
+        <div class="col-3" style="min-width:250px; margin-bottom:20px; margin-top:10px;">
+            <img src="images/Bermuda-logo-white.png" alt="Bermuda Logo" style="max-width:160px; margin-bottom:15px;">
+            <p>Bermuda LLC<br>13101 PRESTON RD STE 110-5049<br>Dallas, TX 75240</p>
+            <p><a style="color:#ffffff;" href="mailto:sales@thebermuda.us">sales@thebermuda.us</a></p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-3" style="min-width:180px; margin-bottom:20px; margin-top:10px;">
+            <h4 style="color:#ffffff; margin-bottom:10px;">Quick Links</h4>
+            <ul style="list-style:none; padding:0; margin:0; text-align:left; line-height:1.8;">
+                <li style="display:block; margin-bottom:6px;"><a style="color:#ffffff;" href="#product">Rating Solutions</a></li>
+                <li style="display:block; margin-bottom:6px;"><a style="color:#ffffff;" href="#carrierdownloads">Carrier Downloads</a></li>
+                <li style="display:block; margin-bottom:6px;"><a style="color:#ffffff;" href="#about">About</a></li>
+                <li style="display:block; margin-bottom:6px;"><a style="color:#ffffff;" href="#pricing">Pricing</a></li>
+                <li style="display:block; margin-bottom:6px;"><a style="color:#ffffff;" href="https://billing.stripe.com/p/login/cN2bJH0O86bsfhmcMM" target="_blank">Subscription Management</a></li>
+            </ul>
+        </div>
+
+        <!-- Resources -->
+        <div class="col-3" style="min-width:180px; margin-bottom:20px; margin-top:10px;">
+            <h4 style="color:#ffffff; margin-bottom:10px;">Resources</h4>
+            <ul style="list-style:none; padding:0; margin:0; text-align:left; line-height:1.8;">
+                <li style="display:block; margin-bottom:6px;">
+                    <a style="color:#ffffff;" href="privacy.html" target="_blank">Privacy Policy</a>
+                </li>
+                <li style="display:block; margin-bottom:6px;">
+                    <a style="color:#ffffff;" href="terms.html" target="_blank">Terms & Conditions</a>
+                </li>
+                <li style="display:block; margin-bottom:6px;">
+                    <a style="color:#ffffff;" href="https://www.linkedin.com/newsletters/digital-agency-framework-7293307560814645248/" target="_blank">Newsletter</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Social -->
+        <div class="col-3" style="min-width:180px; margin-bottom:20px;">
+            <h4 style="color:#ffffff; margin-bottom:10px;">Connect with Us</h4>
+            <ul class="social-icons" style="list-style:none; padding:0; margin:0;">
+                <li style="display:inline-block; margin-right:10px;">
+                    <a title="email" href="mailto:sales@thebermuda.us" style="color:#ffffff;">
+                        <i class="fa fa-envelope fa-1x"></i>
                     </a>
                 </li>
-                <li>
-                    <a target="_blank" title="linkedin" href="https://linkedin.com/company/bermudatech">
-                        <i class="fa fa-linkedin fa-1x"></i><span>Linkedin</span>
+                <li style="display:inline-block; margin-right:10px;">
+                    <a target="_blank" title="LinkedIn" href="https://linkedin.com/company/bermudatech" style="color:#ffffff;">
+                        <i class="fa fa-linkedin fa-1x"></i>
                     </a>
-                </li> 
-                <li>
-                    <a target="_blank" title="substack" href="http://bermudatech.substack.com">
-                        <i class="fa fa-bell-o fa-1x"></i><span>Newsletter</span>
+                </li>
+                <li style="display:inline-block;">
+                    <a target="_blank" title="Newsletter" href="https://www.linkedin.com/newsletters/digital-agency-framework-7293307560814645248/" style="color:#ffffff;">
+                        <i class="fa fa-bell-o fa-1x"></i>
                     </a>
-                </li> 
-                
+                </li>
             </ul>
-            <!--End of Social Icons in Footer-->
-
-        </div>
-        <div class="row clearfix">
-            <p id="copyright" class="col-2">Bermuda LLC. 13101 PRESTON RD STE 110-5049, Dallas, TX 75240</p>
         </div>
 
-    </footer>
+    </div>
+
+    <div class="row clearfix" style="border-top:1px solid #555; margin-top:30px; padding-top:20px; text-align:center; color:#888888;">
+        © Bermuda LLC. All rights reserved.
+    </div>
+
+</footer>
     <!--End of Footer-->
 
 </div>
@@ -679,6 +683,34 @@ if (window.addEventListener) {
 }
 </script>
  
+<script>
+    // 2. This code loads the IFrame Player API code asynchronously.
+    var tag = document.createElement('script');
+
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    // 3. This function creates an <iframe> (and YouTube player)
+    //    after the API code downloads.
+    var player;
+    function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+        width: '100%',
+        videoId: 'yH3kcVJDqVY',
+        playerVars: { 'autoplay': 0, 'playsinline': 0 },
+        events: {
+            'onReady': onPlayerReady
+        }
+        });
+    }
+
+    // 4. The API will call this function when the video player is ready.
+    function onPlayerReady(event) {
+        //event.target.mute();
+        //event.target.playVideo();
+    }
+</script>
 
 
 </body>
