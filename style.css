@@ -247,8 +247,8 @@ body {
 }
 
 /* About */
-.about-div {
-    padding-left: 70px;
+.about-us {
+    padding-block: 50px;
 }
 
 .about-us h3 {
@@ -261,10 +261,7 @@ body {
     color: #5A47FB;
 }
 
-.about-us img {
-    position: relative;
-    left: 20px;
-}
+
 
 /* Testimonials */
 .reviews {
@@ -640,13 +637,11 @@ body {
     }
 
     .about-us {
-        margin-top: 70px;
+        margin-top: 50px;
+        padding-block: 25px;
     }
 
-    .about-div {
-        padding-left: 20px;
 
-    }
 
     #integration h2 {
         padding-bottom: 0;
@@ -722,10 +717,6 @@ body {
         margin-top: 60px;
     }
 
-    .about-div {
-        padding-left: 40px;
-    }
-
     .about-us img {
         display: none;
     }
@@ -758,31 +749,11 @@ body {
         padding-block: 60px;
     }
 
-    .about-div {
-        padding-left: 40px;
-    }
-
     .nav-link {
         font-size: 12px;
     }
 }
 
-@media (min-width: 1900px) {
-
-    .about-div {
-        padding-left: 310px;
-    }
-}
-
-
-@media (min-width: 2300px) {
-
-    .about-div {
-        padding-left: 550px;
-    }
-
-
-}
 
 #main-content h1 {
     font-size: 30px;
