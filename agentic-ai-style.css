@@ -1,0 +1,498 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Header */
+.header {
+    background-color: #F1EFFF;
+}
+
+.h-layer {
+    background-image: url(images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.header-content {
+    padding-top: 40px;
+    padding-bottom: 150px;
+}
+
+.header-content h1 {
+    font-weight: 600;
+
+}
+
+.header-content p {
+    font-size: 18px;
+
+}
+
+.works-link {
+    color: #5A47FB;
+    text-decoration: none;
+    position: relative;
+    left: 10px;
+    font-weight: 600;
+}
+
+.btn-1 {
+    background-color: #5A47FB;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.btn-1:focus {
+    background-color: #5A47FB;
+    color: white;
+}
+
+.btn-1:hover {
+    background-color: #120879;
+    color: white;
+}
+
+.p-div {
+    display: table;
+    height: 100%;
+}
+
+.c-div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* navbar */
+.navbar-brand img {
+    width: 200px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    gap: 15px;
+}
+
+.nav-link {
+    color: #120879;
+}
+
+/* Features */
+.features {
+    background-color: white;
+    border-radius: 25px;
+    margin-top: -150px;
+    padding: 60px 50px;
+    box-shadow: 0px 0px 24px 0px #00000026;
+}
+
+.feature-box {
+    margin-top: 40px;
+}
+
+.feature-box h6 {
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+.feature-box p {
+    font-size: 14px;
+}
+
+/* Why Choose AI */
+.advantage-box {
+    margin-top: 2px;
+}
+
+
+.advantage-box p {
+    width: 75%;
+    padding-top: 12px;
+}
+
+.choose-head {
+    padding-bottom: 15px;
+}
+
+.choose-list {
+    list-style: none;
+    padding: 0;
+}
+
+.why-choose-AI {
+    padding-block: 100px;
+}
+
+.image-div {
+    background-color: #F1EFFF;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+/* How it works */
+
+.how-it-works {
+    background-color: #7261FF;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    padding: 95px 0 70px 0;
+}
+
+.how-it-works h2 {
+    font-weight: 700;
+}
+
+.icon-circle {
+    width: 100px;
+    height: 100px;
+    background: white;
+    color: #6a5af9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 2rem;
+    margin: 0 auto 20px;
+    position: relative;
+    transition: all 0.3s ease;
+    z-index: 1;
+    padding: 20px;
+}
+
+.icon-circle:hover {
+    transform: translateY(-5px);
+    background-color: #f3f1ff;
+}
+
+/* ====== Dotted Lines ====== */
+.col-md-4 {
+    position: relative;
+}
+
+/* Connectors between circles */
+.col-md-4:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 50px;
+    /* vertically aligns with icon center */
+    right: -50%;
+    width: 100%;
+    height: 2px;
+    border-top: 2px dotted rgba(255, 255, 255, 0.6);
+    z-index: 0;
+    animation: dash 2s linear infinite;
+}
+
+/* Animated Dots */
+@keyframes dash {
+    0% {
+        border-top-color: rgba(255, 255, 255, 0.6);
+    }
+
+    50% {
+        border-top-color: rgba(255, 255, 255, 0.2);
+    }
+
+    100% {
+        border-top-color: rgba(255, 255, 255, 0.6);
+    }
+}
+
+/* Remove lines on small screens */
+@media (max-width: 767px) {
+    .col-md-4::after {
+        display: none;
+    }
+}
+
+
+/* Footer */
+.footer {
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.footer-1,
+.follow {
+    padding-top: 20px;
+}
+
+.footer-1 small,
+.footer-2 small,
+.follow small {
+    color: #5A47FB;
+    font-weight: 600;
+}
+
+.footer a i {
+    color: #120879;
+    font-size: 20px;
+}
+
+.footer-2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.follow ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.footer img {
+    width: 200px;
+}
+
+.footer h5 {
+    color: #120879;
+}
+
+.footer ul {
+    list-style: none;
+    line-height: 40px;
+    padding: 0;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.footer-page {
+    background-color: #F1EFFF;
+    margin-top: 70px;
+}
+
+.privacy-mail {
+    color: #120879;
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 767px) {
+
+
+    .works-link {
+        display: block;
+        left: 0;
+        top: 5px;
+    }
+
+    .header-content {
+        padding-top: 60px;
+        text-align: center;
+        padding-bottom: 100px;
+
+    }
+
+    .header-content img {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    .features {
+        position: relative;
+        z-index: 999;
+        padding: 60px 30px;
+    }
+
+    .feature-box {
+        margin-top: 20px;
+    }
+
+    .ord-1 {
+        order: 2;
+    }
+
+    .ord-2 {
+        order: 1;
+    }
+
+    .video-section {
+        padding-block: 40px !important;
+    }
+
+    .why-choose-AI {
+        padding-block: 60px;
+    }
+
+    .advantage-box {
+        margin-top: 20px;
+    }
+
+    .advantage-box p {
+        min-width: 100%;
+        padding-top: 12px;
+    }
+
+    .image-div img {
+        min-width: 35px;
+    }
+
+    .choose-head {
+        text-align: center;
+    }
+
+    .how-it-works {
+        padding: 90px 0 40px 0;
+    }
+
+    .footer h5 {
+        margin-top: 20px;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    .header-content {
+        padding-bottom: 200px;
+        padding-top: 60px;
+    }
+
+    .header-content h1 {
+        font-size: 25px;
+    }
+
+    .btn-1 {
+        padding: 10px 30px;
+    }
+
+    .advantages p {
+        min-width: 100%;
+    }
+
+    .image-div img {
+        width: 40px;
+    }
+
+    .advantage-box p {
+        min-width: 100%;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+    .works-link {
+        display: block;
+    }
+
+    .header-content h1 {
+        font-size: 30px;
+    }
+
+    .features {
+        margin-top: -100px;
+    }
+
+    .advantages p {
+        min-width: 100%;
+    }
+
+    .image-div img {
+        width: 45px;
+    }
+
+}
+
+
+#main-content h1 {
+    font-size: 30px;
+}
+
+#main-content h2 {
+    font-size: 24px;
+}
+
+#main-content h3 {
+    font-size: 22px;
+}
+
+/* Container to control width and spacing */
+.video-section {
+    background-color: #F1EFFF;
+    padding-block: 80px;
+}
+
+.v-container {
+
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+/* Responsive video wrapper using modern aspect-ratio */
+.video-wrap {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: #000;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+
+/* Fallback for browsers that don't support aspect-ratio */
+.video-wrap--fallback {
+    position: relative;
+    padding-top: 56.25%;
+
+}
+
+.video-wrap--fallback video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Make the native <video> element fill the wrapper and keep its aspect correctly */
+.video-wrap video {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+    background: black;
+}
+
+
+/* Small responsive tweaks */
+@media (max-width: 480px) {
+    .v-container {
+        margin: 20px 12px;
+    }
+
+    .video-wrap {
+        border-radius: 6px;
+    }
+}
