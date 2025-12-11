@@ -770,3 +770,290 @@ body {
 .accordion-collapse {
     margin-top: 15px;
 }
+
+/* ========== Agentic AI Page Styles ========== */
+
+/* Agentic hero background override */
+.h-layer-agentic {
+    background-image: url(images/hero-bg.png);
+}
+
+/* Agentic header content override */
+.header-content-agentic {
+    padding-top: 40px;
+    padding-bottom: 150px;
+}
+
+.works-link {
+    color: #5A47FB;
+    text-decoration: none;
+    position: relative;
+    left: 10px;
+    font-weight: 600;
+}
+
+/* Features */
+.features {
+    background-color: white;
+    border-radius: 25px;
+    margin-top: -150px;
+    padding: 60px 50px;
+    box-shadow: 0px 0px 24px 0px #00000026;
+}
+
+.feature-box {
+    margin-top: 40px;
+}
+
+.feature-box h6 {
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+.feature-box p {
+    font-size: 14px;
+}
+
+/* Why Choose AI */
+.advantage-box {
+    margin-top: 2px;
+}
+
+.advantage-box p {
+    width: 75%;
+    padding-top: 12px;
+}
+
+.choose-head {
+    padding-bottom: 15px;
+}
+
+.choose-list {
+    list-style: none;
+    padding: 0;
+}
+
+.why-choose-AI {
+    padding-block: 100px;
+}
+
+.image-div {
+    background-color: #F1EFFF;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+/* How it works */
+.how-it-works {
+    background-color: #7261FF;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    padding: 95px 0 70px 0;
+}
+
+.how-it-works h2 {
+    font-weight: 700;
+}
+
+.icon-circle {
+    width: 100px;
+    height: 100px;
+    background: white;
+    color: #6a5af9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 2rem;
+    margin: 0 auto 20px;
+    position: relative;
+    transition: all 0.3s ease;
+    z-index: 1;
+    padding: 20px;
+}
+
+.icon-circle:hover {
+    transform: translateY(-5px);
+    background-color: #f3f1ff;
+}
+
+/* Dotted Lines for How It Works */
+.how-it-works .col-md-4 {
+    position: relative;
+}
+
+.how-it-works .col-md-4:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 50px;
+    right: -50%;
+    width: 100%;
+    height: 2px;
+    border-top: 2px dotted rgba(255, 255, 255, 0.6);
+    z-index: 0;
+    animation: dash 2s linear infinite;
+}
+
+@keyframes dash {
+    0% {
+        border-top-color: rgba(255, 255, 255, 0.6);
+    }
+    50% {
+        border-top-color: rgba(255, 255, 255, 0.2);
+    }
+    100% {
+        border-top-color: rgba(255, 255, 255, 0.6);
+    }
+}
+
+/* Video Section */
+.video-section {
+    background-color: #F1EFFF;
+    padding-block: 80px;
+}
+
+.v-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.video-wrap {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: #000;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.video-wrap--fallback {
+    position: relative;
+    padding-top: 56.25%;
+}
+
+.video-wrap--fallback video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-wrap video {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+    background: black;
+}
+
+/* Agentic AI Responsive */
+@media screen and (max-width: 767px) {
+    .works-link {
+        display: block;
+        left: 0;
+        top: 5px;
+    }
+
+    .header-content-agentic {
+        padding-top: 60px;
+        text-align: center;
+        padding-bottom: 100px;
+    }
+
+    .header-content-agentic img {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    .features {
+        position: relative;
+        z-index: 999;
+        padding: 60px 30px;
+    }
+
+    .feature-box {
+        margin-top: 20px;
+    }
+
+    .video-section {
+        padding-block: 40px !important;
+    }
+
+    .why-choose-AI {
+        padding-block: 60px;
+    }
+
+    .advantage-box {
+        margin-top: 20px;
+    }
+
+    .advantage-box p {
+        min-width: 100%;
+        padding-top: 12px;
+    }
+
+    .image-div img {
+        min-width: 35px;
+    }
+
+    .choose-head {
+        text-align: center;
+    }
+
+    .how-it-works {
+        padding: 90px 0 40px 0;
+    }
+
+    .how-it-works .col-md-4::after {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-content-agentic {
+        padding-bottom: 200px;
+        padding-top: 60px;
+    }
+
+    .header-content-agentic h1 {
+        font-size: 25px;
+    }
+
+    .advantage-box p {
+        min-width: 100%;
+    }
+
+    .image-div img {
+        width: 40px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .works-link {
+        display: block;
+    }
+
+    .header-content-agentic h1 {
+        font-size: 30px;
+    }
+
+    .features {
+        margin-top: -100px;
+    }
+
+    .image-div img {
+        width: 45px;
+    }
+}
+
+@media (max-width: 480px) {
+    .v-container {
+        margin: 20px 12px;
+    }
+
+    .video-wrap {
+        border-radius: 6px;
+    }
+}

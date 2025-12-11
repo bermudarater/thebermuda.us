@@ -24,7 +24,7 @@
 
 
     <!-- Main CSS Files -->
-    <link rel="stylesheet" href="agentic-ai-style.css">
+    <link rel="stylesheet" href="style.css">
 
     <!-- Poppins - Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,7 +40,7 @@
 
     <!-- Header -->
     <header class="header">
-        <div class="h-layer">
+        <div class="h-layer h-layer-agentic">
             <div class="container">
 
                 <!-- navbar --->
@@ -58,15 +58,14 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="index.html">Home</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="https://www.thebermuda.us/#product">Rating Solutions</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="https://www.thebermuda.us/#download">Carrier
-                                        Downloads&nbsp;</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="https://www.thebermuda.us/#integration">Integrations</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Solutions</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="https://www.thebermuda.us/#product">Rating Solutions</a></li>
+                                        <li><a class="dropdown-item" href="https://www.thebermuda.us/#download">Carrier Downloads</a></li>
+                                        <li><a class="dropdown-item" href="https://www.thebermuda.us/#integration">Integrations</a></li>
+                                        <li><a class="dropdown-item" href="agentic-ai.html">Agentic AI</a></li>
+                                    </ul>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="https://www.thebermuda.us/#about">About</a>
@@ -87,7 +86,7 @@
                 </nav>
 
                 <!-- Header Content -->
-                <div class="header-content">
+                <div class="header-content header-content-agentic">
                     <div class="row">
                         <div class="col-lg-5 col-md-6 col-sm-12 header-left">
                             <div class="p-div">
@@ -394,6 +393,7 @@
                     <ul>
                         <li><a href="https://www.thebermuda.us/#product">Rating Solutions</a></li>
                         <li><a href="https://www.thebermuda.us/#download">Carrier Downloads</a></li>
+                        <li><a href="agentic-ai.html">Agentic AI</a></li>
                         <li><a href="https://www.thebermuda.us/#about">About</a></li>
                         <li><a href="https://www.thebermuda.us/#pricing">Pricing</a></li>
                         <li><a href="https://www.thebermuda.us/blog.html">Blog</a></li>
@@ -460,6 +460,19 @@
             }
         })();
     </script>
+
+    <!-- Page Assistant -->
+    <script
+        src="https://ai-dev.thebermuda.us/page-ai/agent.js"
+        data-page-assistant="true"
+        data-tenant-id="bermuda_dev"
+        data-welcome="Hi! I'm your AI Assistant. Ask me anything about Agentic AI and insurance automation!"
+        data-agent-name="Bermuda AI"
+        data-agent-logo="images/bermuda-icon.png"
+        data-primary-color="#5A47FB"
+        data-questions='["What is Agentic AI and how does it work?","How can Agentic AI automate my quoting process?","How does automated payment processing work?","What are AI-powered servicing agents?","Can Agentic AI handle customer service after hours?","What tasks can AI agents replace for my agency?","How do I request a demo?"]'
+        defer
+    ></script>
 </body>
 
 </html>
