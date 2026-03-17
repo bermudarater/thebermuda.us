@@ -1,0 +1,44 @@
+# Bermuda LLC
+
+> InsurTech company specializing in insurance automation for 10+ years. Bermuda empowers insurance agencies with real-time rating, agentic AI workflows, carrier data integration, and lead automation — helping agents sell more with less manual work.
+
+**Website:** https://www.thebermuda.us
+**Contact:** info@thebermuda.us | (512) 428-8740
+**Location:** Dallas, TX
+
+## Key Stats
+
+- 1,000+ agents using Bermuda solutions
+- 50,000+ monthly quotes processed
+- 100,000+ active policies managed
+- 40+ hours/month saved through AI automation
+
+## Products & Solutions
+
+- [Bermuda Rater — Rating Engine & Integration Platform](https://www.thebermuda.us/docs/md/products.md): Real-time auto & home quote generation, API-first modular architecture, multi-state quoting, TurboRater/Direct Binding support
+- [Agentic AI Solutions](https://www.thebermuda.us/docs/md/agentic-ai.md): End-to-end AI automation for quoting, policy binding, payment processing, carrier uploads, and servicing agents
+- [Carrier Downloads](https://www.thebermuda.us/docs/md/carrier-downloads.md): Real-time policy and payment data sync from carriers, single source of truth for all policy data
+- [Integrations](https://www.thebermuda.us/docs/md/integrations.md): 30+ integrations — EverQuote, QuinStreet, QuoteWizard, NowCerts, Twilio, SendGrid, QuickBooks, Zapier, and more
+- [Pricing](https://www.thebermuda.us/docs/md/pricing.md): Basic ($249/mo), Business ($499/mo), Enterprise (custom) — all with 1-month free trial
+- [FAQs](https://www.thebermuda.us/docs/md/faqs.md): Common questions about rating, integrations, lead management, automation, and technical setup
+
+## Guides & Resources
+
+- [How to Create AI SEO for Your Website](https://www.thebermuda.us/docs/md/ai-seo-guide.md): Step-by-step GEO guide — llms.txt, robots.txt, markdown files, structured data
+
+## Web Pages
+
+- [Home](https://www.thebermuda.us/): Overview of all products and services
+- [Agentic AI](https://www.thebermuda.us/agentic-ai): Dedicated AI automation solutions page
+- [Blog](https://www.thebermuda.us/blog): InsurTech insights and updates
+- [Live Demo](https://demo.quotes.thebermuda.us): Try the real-time quoting platform
+- [Carrier Downloads](https://www.carrierdownloads.com): Standalone carrier data platform
+
+## Full Content
+
+- [All content (single file)](https://www.thebermuda.us/llms-full.txt): Complete documentation merged for efficient AI consumption
+
+## Optional
+
+- [Privacy Policy](https://www.thebermuda.us/docs/md/privacy-terms.md): Data practices and terms of service
+- [Billing Portal](https://billing.stripe.com/p/login/5kAbLy4Lk3xo3RK000): Manage subscriptions

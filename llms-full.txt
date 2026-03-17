@@ -1,0 +1,362 @@
+# Bermuda LLC — Complete Documentation
+
+> InsurTech company specializing in insurance automation for 10+ years. Bermuda empowers insurance agencies with real-time rating, agentic AI workflows, carrier data integration, and lead automation.
+
+**Tagline:** Sell more with automation
+**Website:** https://www.thebermuda.us
+**Contact:** info@thebermuda.us | (512) 428-8740
+**Address:** 13101 Preston Rd. Ste 110, Dallas, TX 75240
+
+---
+
+## What We Do
+
+- **Bermuda Rater** — Real-time rating engine and integration platform for carriers, MGAs, and agencies
+- **Instant Auto & Home Quotes** — Generate quotes in seconds through an intuitive web app
+- **Carrier Downloads** — Real-time data integration and policy management
+- **Client Portals** — Self-service platforms with payment automation
+- **Lead Management** — Real-time lead integration and automation with top providers
+- **Agentic AI Solutions** — AI-powered automation for quoting, binding, payments, and servicing
+
+## Key Stats
+
+- 1,000+ agents using our solutions
+- 50,000+ monthly quotes processed
+- 100,000+ active policies managed
+- 10+ years of insurance domain expertise
+- Saves 40+ hours per month on repetitive operations
+
+---
+
+# Products & Rating Solutions
+
+**Page:** https://www.thebermuda.us/#product
+
+## Bermuda Rater
+
+A rating engine and integration platform for carriers, MGAs, and agencies. Enables real-time quote generation, API connections, and automated workflows powering customer portals and AMS systems.
+
+**Who is it for?** Insurance carriers, MGAs, agency owners, and digital agencies building insurance technology. Integrates with rating APIs, CRMs, conversion tools, and document systems.
+
+**Try it:** https://demo.quotes.thebermuda.us
+
+### Key Features
+
+#### Instant Quotes
+Auto & Home quotes obtainable through an intuitive web app interface. Seamless, stress-free experience for agents and customers.
+
+#### Mobile Compatible
+On-the-go access with effortless navigation and quote retrieval on any mobile device.
+
+#### Real-time Leads
+Fresh, high-quality leads delivered directly into the online quoting web app. Competitive sales advantage with instant lead-to-quote conversion.
+
+#### Power of Integration
+Unified approach eliminating data silos for efficient insurance sales management. API-first, modular architecture.
+
+#### Customizable Coverage Packages
+Configure coverage options per state, per carrier, per line of business.
+
+#### Multi-State Quoting
+Bermuda Rater works in any state the agency operates in. It connects to the agency's preferred real-time rater and their active carriers — so quoting availability is driven by the agency's own setup, not platform limitations.
+
+### Supported Rating APIs
+
+- TurboRater
+- Direct Binding
+- Additional quoting engines available upon request (modular architecture)
+
+### Platform Capabilities
+
+- API-first modular architecture
+- Webhook and automation frameworks
+- State-specific configurations (active states, coverage requirements, zip-code-based routing)
+- Customizable per underwriting preferences
+- Open Transaction API for proprietary system integration
+
+---
+
+# Agentic AI Solutions
+
+**Page:** https://www.thebermuda.us/agentic-ai.html
+
+Bermuda's Agentic AI automates repetitive insurance workflows end-to-end, replacing manual tasks with reliable, tireless AI agents.
+
+### Real-Time Quoting Automation
+Instantly generate quotes with precision. Eliminates manual data entry and accelerates the quoting process.
+
+### Policy Binding & Synchronization
+Policies bind rapidly while maintaining consistent data across all platforms. No human intervention needed.
+
+### Automated Payment Processing
+Simplify and secure payments with intelligent, error-free automation. Reduces processing errors and speeds up transactions.
+
+### Seamless Carrier Uploads
+Integrates with low-tech carrier portals — a major industry advancement. Documents upload and synchronize across carrier systems automatically.
+
+### AI-Powered Servicing Agents
+Replace repetitive human tasks with AI agents that handle routine servicing requests, freeing your team for strategic work.
+
+## How It Works
+
+1. **Data Collection** — Customer data is collected and feeds automated quote generation
+2. **Quote & Bind** — Policies bind and payments process without human intervention
+3. **Sync & Upload** — Documents upload and synchronize across carrier systems automatically
+
+## Benefits
+
+- Reduces human error through AI-driven processes
+- Delivers consistency and accuracy in data handling
+- Works with legacy systems and outdated carrier portals
+- Enables teams to focus on strategic growth rather than routine tasks
+- Saves 40+ hours per month on repetitive operations
+
+---
+
+# Carrier Downloads
+
+**Page:** https://www.carrierdownloads.com
+
+Real-time data integration and policy management platform. Works with any carrier the agency is appointed with, in any state they operate in.
+
+## Real-Time Data Integration
+Policy adjustments and payment updates flow directly from carriers, keeping agencies synchronized with customers. Prevents churn by ensuring data is always current.
+
+## Master and Manage Your Data
+Take control of your information with tools focused on data accuracy and integrity. All carrier data in one place.
+
+## Enhanced Customer Satisfaction
+
+- Advanced customer tracking
+- Churn prevention features
+- Real-time interaction insights
+- Proactive need addressing
+
+## Accelerate Operations
+
+- Faster financial reporting
+- Streamlined transaction processing
+- Simplified agency management
+- Handles both day-to-day and complex tasks
+
+## Key Benefits
+
+- Real-time sync ensures billing and policy data is always current
+- Crucial for automation and delivering great customer service
+- Eliminates manual data entry from carrier portals
+- Single source of truth for all policy data
+
+---
+
+# Integrations
+
+**Page:** https://www.thebermuda.us/#integration
+
+Bermuda connects with 30+ platforms and services. Our API-first architecture enables seamless integration with your existing tools.
+
+## Lead Providers
+
+Native real-time connections — leads are automatically fetched, validated, and instantly quoted.
+
+- **EverQuote** — Real-time lead delivery and quoting
+- **QuinStreet** — Automated lead integration
+- **QuoteWizard** — Instant lead receipt and enrichment
+- **SmartFinancial** — Real-time lead connection
+- **MediaAlpha** — Lead integration and automation
+
+Each provider has customizable mapping logic, validation rules, workflows, filters, enrichment, deduplication rules, and quote handling.
+
+## CRM Integrations
+
+Data flows automatically bidirectionally via webhooks and APIs.
+
+- NowCerts
+- InsuredMine
+- FreshWorks
+- Velocify
+- InsurancePro
+- Additional CRMs available
+
+## Workflow & Automation
+
+- **Zapier** — Connect Bermuda Rater with thousands of applications, no-code automation
+- **Open Webhooks** — Custom automation for customer creation, quote routing, notifications
+
+## Communication
+
+- **Twilio SMS** — Automated text messaging for customer engagement
+- **SendGrid** — Customizable email notifications and marketing (configurable sender, reply-to, branded communications)
+- **Podium** — 2-way SMS messaging, lead engagement, review collection
+
+## Data Prefill Services
+
+Auto-populate customer data to reduce manual entry:
+
+- TransUnion
+- Fenris
+- DCS (Data Collection Services)
+- Public Data APIs
+- TurboRater Autofill (Home)
+
+## Analytics & Tracking
+
+- **Google Analytics** — User activity tracking and conversion metrics
+- **Mouseflow** — Visual session replays and heatmaps for user behavior analysis
+- **Improvely** — Lead origin tracking and marketing attribution
+
+## Customer Support
+
+- **Freshchat** — Real-time customer support chat for agency sites
+- **Intercom** — Chat integration
+- **Podium** — Text communication and reputation management
+
+## Accounting
+
+- **QuickBooks** — Insurance transaction tracking synced for taxes and financial statements
+- **Microsoft Dynamics GP** — Financial system integration
+- **Oracle NetSuite** — Enterprise accounting sync
+
+Policy, payment, and report data sync to your financial systems.
+
+## Other
+
+- **Google reCAPTCHA** — Form security
+- **Sentry** — Error monitoring
+- **BrowserStack** — Cross-browser testing
+- **Direct Binding** — Policy binding via integrated rating APIs
+- **Custom Integration** — Connect AI apps to legacy systems via our Open Transaction API
+
+---
+
+# Pricing
+
+**Page:** https://www.thebermuda.us/#pricing
+
+All plans include a 1-month free trial.
+
+## Basic — $249/month
+
+Best for small agencies with few locations operating in one state.
+
+- 1 Business Line (Auto)
+- Single State Quotes
+- Page personalization
+- Email/SMS Notifications
+- 249 quotes per month
+- Paid data and click leads access
+
+## Business — $499/month
+
+Best for growing multi-state agencies.
+
+- 1 Business Line (Auto)
+- Multi-State Quotes
+- Customizable Coverage Packages
+- Embed 3rd Party JavaScripts
+- 999 quotes per month
+- Paid data and click leads access
+
+## Enterprise — Custom Pricing
+
+Best for agencies with custom workflows and multiple data sources.
+
+- Real-time Rater Integration
+- Auto & Home Lines
+- Online Policy Purchase
+- Prefill & Public Data Services
+- Open API/Webhooks access
+- Unlimited monthly quotes
+- Paid data and click leads access
+
+**Get Started:** info@thebermuda.us | (512) 428-8740 | https://demo.quotes.thebermuda.us
+
+---
+
+# Frequently Asked Questions
+
+**Page:** https://www.thebermuda.us/#faqs
+
+## General
+
+**What is Bermuda Rater?**
+A rating engine and integration platform for carriers, MGAs, and agencies enabling real-time quote generation, API connections, and automated workflows powering customer portals and AMS systems.
+
+**Who is it for?**
+Insurance carriers, MGAs, agency owners, and digital agencies building insurance technology. Integrates with rating APIs, CRMs, conversion tools, and document systems.
+
+## Rating & Quoting
+
+**What rating APIs are supported?**
+TurboRater and Direct Binding, with modular architecture enabling additional quoting engines upon request.
+
+**Can I get quotes for multiple states?**
+Yes. Bermuda Rater works in any state the agency operates in — it integrates with the agency's preferred real-time rater and their active carriers. Multi-state quoting is available on Business and Enterprise plans.
+
+## Integrations
+
+**What CRM integrations are available?**
+NowCerts, InsuredMine, FreshWorks, Velocify, InsurancePro, and others. Data flows automatically bidirectionally via webhooks and APIs.
+
+**Does it support external data prefilling?**
+Yes, through Prefill Data API accessing TransUnion, Fenris, DCS, and public records, reducing data entry friction.
+
+**What other integrations are supported?**
+Twilio, SendGrid, Google Analytics, Mouseflow, Freshchat, Improvely, Podium, Zapier, Gmail, Google reCAPTCHA, Sentry, BrowserStack, and more.
+
+**Does it integrate with accounting software?**
+Yes — QuickBooks, Microsoft Dynamics GP, Oracle NetSuite. Policy, payment, and report data sync to financial systems.
+
+## Lead Management
+
+**Which real-time lead providers are supported?**
+EverQuote, QuinStreet, QuoteWizard, SmartFinancial, and MediaAlpha. Leads are automatically fetched, validated, and instantly quoted.
+
+**How does lead integration work?**
+Leads are received via secure API or webhook. The platform immediately pre-fills data, runs quotes using configured rating providers, and optionally routes to CRM/AMS.
+
+**Can I customize per lead provider?**
+Yes. Each provider has mapping logic, validation rules, workflows, provider-specific filters, enrichments, deduplication rules, and quote handling — all configurable.
+
+**What happens with incomplete lead data?**
+The platform supports prefill from TransUnion, Fenris, and public data APIs for auto-completion. Configurable fallback logic flags non-compliant leads.
+
+**Can it auto-respond to leads?**
+Yes. Automated responses via SMS (Twilio), email (SendGrid), or webhook to CRM post-quote generation.
+
+## Communication
+
+**What chat tools are compatible?**
+Intercom, Freshchat, and Podium integrations enable direct agent interaction on quoting portals.
+
+**Can I customize email settings?**
+Yes. SendGrid is fully customizable — From Email Address, From Name, Reply-To Address. Supports branded, authenticated communications.
+
+**Can I use Podium for SMS instead of Twilio?**
+Yes. Podium is an alternative for 2-way messaging, lead engagement, and review collection. Selectable during onboarding.
+
+## Automation & Customization
+
+**Does it support workflow automation?**
+Yes. Zapier or open Webhook frameworks automate customer creation, quote routing, and notifications. No-code solutions available.
+
+**How customizable is the platform?**
+Fully modular and API-first. Integrations are configurable, webhooks customizable, and proprietary systems can connect via the Open Transaction API.
+
+## Technical
+
+**What are the DNS/hosting requirements?**
+Domain DNS configuration pointing to Bermuda-hosted portal. Domain authentication for email via SendGrid and live deployment URLs.
+
+**Does it support state-specific configurations?**
+Yes. Active states, coverage requirements, zip-code-based routing — all customizable per underwriting preferences.
+
+**What analytics and tracking tools are available?**
+Mouseflow provides heatmaps and session recording. Improvely enables conversion tracking and lead attribution analysis. Google Analytics for user activity and conversions.
+
+---
+
+# Privacy Policy & Terms
+
+**Privacy:** https://www.thebermuda.us/privacy.html | **Terms:** https://www.thebermuda.us/terms.html
+
+Bermuda LLC collects personal information only when voluntarily provided. Mobile information and text messaging opt-in data are never shared with third parties for marketing purposes. Texas state law applies. Contact: info@thebermuda.us

@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="How to Create AI SEO for Your Website — Bermuda LLC">
+    <meta name="description" content="A practical guide to Generative Engine Optimization (GEO): llms.txt, robots.txt for AI crawlers, markdown content files, sitemap, and content strategy to get cited by ChatGPT, Perplexity, and Claude.">
+    <meta name="keywords" content="AI SEO, GEO, generative engine optimization, llms.txt, AI crawlers, ChatGPT SEO, Perplexity SEO, LLM visibility, insurance tech, InsurTech">
+    <meta name="author" content="Bermuda LLC">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="How to Create AI SEO for Your Website">
+    <meta property="og:description" content="Step-by-step guide to making your website discoverable and citable by AI search engines: ChatGPT, Perplexity, Claude, and Grok.">
+    <meta property="og:url" content="https://www.thebermuda.us/ai-seo-guide">
+    <meta property="og:site_name" content="Bermuda LLC">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://www.thebermuda.us/ai-seo-guide">
+
+    <!-- Alternate: markdown version for AI agents -->
+    <link rel="alternate" type="text/markdown" href="https://www.thebermuda.us/docs/md/ai-seo-guide.md" title="Markdown version">
+
+    <!--Page Title-->
+    <title>How to Create AI SEO for Your Website — Bermuda LLC</title>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" title="Favicon">
+
+    <!-- Fontawesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Bootstrap CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- Main CSS Files -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Poppins - Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "How to Create AI SEO for Your Website",
+      "description": "A practical guide to Generative Engine Optimization (GEO): llms.txt, robots.txt for AI crawlers, markdown content files, and content strategy to get cited by ChatGPT, Perplexity, Claude, and Grok.",
+      "author": {
+        "@type": "Organization",
+        "name": "Bermuda LLC",
+        "url": "https://www.thebermuda.us"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Bermuda LLC",
+        "url": "https://www.thebermuda.us",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.thebermuda.us/images/Bermuda-logo 1.png"
+        }
+      },
+      "datePublished": "2026-03-17",
+      "dateModified": "2026-03-17",
+      "url": "https://www.thebermuda.us/ai-seo-guide",
+      "mainEntityOfPage": "https://www.thebermuda.us/ai-seo-guide",
+      "keywords": ["AI SEO", "GEO", "generative engine optimization", "llms.txt", "ChatGPT SEO", "Perplexity SEO", "AI visibility"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the difference between SEO and GEO?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SEO (Search Engine Optimization) targets Google's ranking algorithm to get blue links. GEO (Generative Engine Optimization) targets AI language models to get cited inside AI-generated answers. Both matter — but GEO requires structured, machine-readable content rather than keyword density."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does llms.txt replace robots.txt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. robots.txt controls crawler access (which bots can crawl which pages). llms.txt provides AI-readable content about your site's structure and purpose. You need both."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will AI SEO work for ChatGPT?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ChatGPT uses RAG (web search) for current information. Allowing GPTBot and OAI-SearchBot in robots.txt, having a sitemap, and providing structured content increases the probability of being retrieved and cited in ChatGPT answers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does AI SEO take to show results?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RAG-based systems like Perplexity and ChatGPT search can reflect changes within days to weeks. Foundation model training data has cutoffs — influence there is longer-term and requires external citation building."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is markdown required, or can HTML work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI systems can process HTML, but it costs 5–10x more tokens. Clean HTML with good semantic structure performs better than average, but dedicated markdown files give AI agents the most efficient path to your content."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        .guide-hero {
+            background: linear-gradient(135deg, #5A47FB 0%, #3a2fd4 100%);
+            padding: 80px 0 60px;
+            color: #fff;
+        }
+        .guide-hero h1 {
+            font-size: 2.4rem;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+        .guide-hero .lead {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            margin-top: 16px;
+        }
+        .guide-meta {
+            font-size: 0.85rem;
+            opacity: 0.7;
+            margin-top: 12px;
+        }
+        .guide-body {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 60px 20px 80px;
+        }
+        .guide-body h2 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-top: 56px;
+            margin-bottom: 16px;
+            color: #1a1a2e;
+            border-left: 4px solid #5A47FB;
+            padding-left: 14px;
+        }
+        .guide-body h3 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 10px;
+            color: #2d2d2d;
+        }
+        .guide-body p {
+            color: #444;
+            line-height: 1.8;
+            margin-bottom: 16px;
+        }
+        .guide-body ul, .guide-body ol {
+            color: #444;
+            line-height: 1.8;
+            padding-left: 24px;
+        }
+        .guide-body li {
+            margin-bottom: 6px;
+        }
+        .guide-body pre {
+            background: #f4f4f8;
+            border: 1px solid #e0e0ef;
+            border-radius: 8px;
+            padding: 20px;
+            overflow-x: auto;
+            font-size: 0.85rem;
+            margin: 20px 0;
+        }
+        .guide-body code {
+            background: #f0f0f8;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.88em;
+            color: #5A47FB;
+        }
+        .guide-body pre code {
+            background: none;
+            padding: 0;
+            color: #2d2d2d;
+        }
+        .stat-bar {
+            background: #f7f7ff;
+            border-left: 4px solid #5A47FB;
+            border-radius: 0 8px 8px 0;
+            padding: 16px 20px;
+            margin: 24px 0;
+        }
+        .stat-bar p {
+            margin: 0;
+            color: #333;
+            font-weight: 500;
+        }
+        .checklist {
+            list-style: none;
+            padding-left: 0;
+        }
+        .checklist li {
+            padding: 8px 0 8px 32px;
+            position: relative;
+            border-bottom: 1px solid #f0f0f0;
+            color: #444;
+        }
+        .checklist li::before {
+            content: "☐";
+            position: absolute;
+            left: 0;
+            color: #5A47FB;
+            font-size: 1.1rem;
+        }
+        .faq-item {
+            border: 1px solid #e8e8f0;
+            border-radius: 10px;
+            padding: 20px 24px;
+            margin-bottom: 16px;
+        }
+        .faq-item strong {
+            color: #1a1a2e;
+            display: block;
+            margin-bottom: 8px;
+            font-size: 0.97rem;
+        }
+        .faq-item p {
+            margin: 0;
+            font-size: 0.93rem;
+        }
+        .table-clean {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.9rem;
+        }
+        .table-clean th {
+            background: #5A47FB;
+            color: #fff;
+            padding: 10px 14px;
+            text-align: left;
+        }
+        .table-clean td {
+            padding: 10px 14px;
+            border-bottom: 1px solid #eee;
+            color: #444;
+        }
+        .table-clean tr:last-child td {
+            border-bottom: none;
+        }
+        .table-clean code {
+            background: #f0f0f8;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            color: #5A47FB;
+        }
+        .cta-box {
+            background: linear-gradient(135deg, #5A47FB, #3a2fd4);
+            color: #fff;
+            border-radius: 12px;
+            padding: 36px 32px;
+            margin-top: 60px;
+            text-align: center;
+        }
+        .cta-box h3 {
+            color: #fff;
+            margin-top: 0;
+            font-size: 1.4rem;
+        }
+        .cta-box p {
+            color: rgba(255,255,255,0.85);
+        }
+        .cta-box .btn-1 {
+            background: #fff;
+            color: #5A47FB;
+            font-weight: 600;
+            padding: 12px 28px;
+            border-radius: 8px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 8px;
+        }
+        .step-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            background: #5A47FB;
+            color: #fff;
+            border-radius: 50%;
+            font-weight: 700;
+            font-size: 0.9rem;
+            margin-right: 10px;
+            flex-shrink: 0;
+        }
+        .step-heading {
+            display: flex;
+            align-items: center;
+            margin-top: 56px;
+            margin-bottom: 16px;
+        }
+        .step-heading h2 {
+            margin: 0;
+            border: none;
+            padding: 0;
+        }
+        .markdown-badge {
+            display: inline-block;
+            background: #eef;
+            color: #5A47FB;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 3px 10px;
+            border-radius: 20px;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header / Hero -->
+    <header class="guide-hero">
+        <div class="container">
+
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html"><img src="images/Bermuda-logo 1.png" class="img-fluid" alt="logo"></a>
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Solutions</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="https://www.thebermuda.us/#product">Rating Solutions</a></li>
+                                    <li><a class="dropdown-item" href="https://www.thebermuda.us/#download">Carrier Downloads</a></li>
+                                    <li><a class="dropdown-item" href="https://www.thebermuda.us/#integration">Integrations</a></li>
+                                    <li><a class="dropdown-item" href="agentic-ai.html">Agentic AI</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.thebermuda.us/#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.thebermuda.us/#faqs">FAQs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.thebermuda.us/#pricing">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.thebermuda.us/blog.html">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Hero Content -->
+            <div class="row mt-5">
+                <div class="col-lg-8">
+                    <h1>How to Create AI SEO<br>for Your Website</h1>
+                    <p class="lead">Get your business cited inside ChatGPT, Perplexity, Claude, and Grok answers — not just found on Google.</p>
+                    <p class="guide-meta">By Bermuda LLC &nbsp;·&nbsp; March 2026 &nbsp;·&nbsp; 8 min read &nbsp;·&nbsp;
+                        <a href="docs/md/ai-seo-guide.md" style="color:rgba(255,255,255,0.7); text-decoration:underline;">Markdown version</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="guide-body">
+
+            <!-- Intro -->
+            <p>AI search engines are now primary entry points for business discovery. Traditional SEO gets you found on Google. <strong>AI SEO</strong> — also called Generative Engine Optimization (GEO) — gets your business <em>cited inside AI-generated answers</em>. This guide covers the exact steps to make your website readable, discoverable, and citable by AI systems.</p>
+
+            <!-- Stats -->
+            <div class="stat-bar">
+                <p>95 out of 100 Google AI Mode queries end without a click — but the 5 that do click are high-intent buyers. ChatGPT sends 12 million clicks per month in Germany alone. The top-cited site captured 2% of that traffic, outranking Amazon and eBay.</p>
+            </div>
+
+            <p>An HTML page costs an AI agent ~16,000 tokens to process. The same content in markdown costs ~3,150 — an <strong>80% reduction</strong>. AI systems prefer structured, machine-readable content. This guide shows you how to deliver it.</p>
+
+
+            <!-- Step 1 -->
+            <div class="step-heading">
+                <span class="step-number">1</span>
+                <h2>Create <code>llms.txt</code></h2>
+            </div>
+
+            <p><code>llms.txt</code> is the AI equivalent of <code>robots.txt</code>. Proposed by Jeremy Howard (Answer.AI), it tells LLMs what your site is about and where to find structured content. Place it at the root: <code>https://yourdomain.com/llms.txt</code></p>
+
+            <pre># Company Name
+
+> One-sentence description of who you are and what you do.
+
+## Core Pages
+- [Products](https://yourdomain.com/docs/products.md): what you sell
+- [FAQs](https://yourdomain.com/docs/faqs.md): common questions
+
+## Optional
+- [Full Content](https://yourdomain.com/llms-full.txt): all content merged</pre>
+
+            <h3>Key rules</h3>
+            <ul>
+                <li>Lead with a <code>&gt;</code> blockquote — AI uses this to decide relevance before fetching anything else</li>
+                <li>Link to <strong>markdown files</strong>, not HTML pages (80% more token-efficient)</li>
+                <li>Include an <code>llms-full.txt</code> for AI agents that want everything in one fetch</li>
+                <li>Keep it concise — AI agents parse this before deciding what to retrieve</li>
+            </ul>
+
+
+            <!-- Step 2 -->
+            <div class="step-heading">
+                <span class="step-number">2</span>
+                <h2>Update <code>robots.txt</code> for AI Crawlers</h2>
+            </div>
+
+            <p>Many sites accidentally block AI crawlers with aggressive <code>Disallow</code> rules. Explicitly allow the bots that matter:</p>
+
+            <table class="table-clean">
+                <thead>
+                    <tr><th>Bot User-Agent</th><th>Platform</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><code>GPTBot</code></td><td>ChatGPT (training)</td></tr>
+                    <tr><td><code>OAI-SearchBot</code></td><td>ChatGPT (search / RAG)</td></tr>
+                    <tr><td><code>PerplexityBot</code></td><td>Perplexity</td></tr>
+                    <tr><td><code>Claude-Web</code></td><td>Claude</td></tr>
+                    <tr><td><code>anthropic-ai</code></td><td>Anthropic crawlers</td></tr>
+                    <tr><td><code>Google-Extended</code></td><td>Gemini training</td></tr>
+                    <tr><td><code>cohere-ai</code></td><td>Cohere</td></tr>
+                    <tr><td><code>Meta-ExternalAgent</code></td><td>Meta AI</td></tr>
+                </tbody>
+            </table>
+
+            <pre>User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://yourdomain.com/sitemap.xml</pre>
+
+
+            <!-- Step 3 -->
+            <div class="step-heading">
+                <span class="step-number">3</span>
+                <h2>Create Markdown Content Files</h2>
+            </div>
+
+            <p>Create a <code>docs/md/</code> directory with one file per topic. AI agents retrieve these instead of parsing your HTML.</p>
+
+            <h3>Recommended files</h3>
+            <ul>
+                <li><code>README.md</code> — company overview, key stats, quick links</li>
+                <li><code>products.md</code> — what you sell, features, how it works</li>
+                <li><code>faqs.md</code> — Q&amp;A format (AI loves direct FAQ structure)</li>
+                <li><code>pricing.md</code> — declarative pricing facts</li>
+                <li><code>integrations.md</code> — what connects with your platform</li>
+            </ul>
+
+            <h3>Write for AI extraction</h3>
+            <ul>
+                <li>Use <code>##</code> headings for every major section — AI uses these as chunk boundaries</li>
+                <li>Write declarative statements: <em>"Bermuda processes 50,000 quotes per month"</em> — not <em>"we're industry-leading"</em></li>
+                <li>Put the most important fact in the <strong>first sentence</strong> of each section</li>
+                <li>Use bullet lists — AI extracts these as structured facts</li>
+                <li>Include the canonical URL at the top of each file</li>
+            </ul>
+
+            <p>Also create <code>llms-full.txt</code> at the root — all markdown files merged into one. AI agents that want a complete picture get it in a single HTTP request.</p>
+
+
+            <!-- Step 4 -->
+            <div class="step-heading">
+                <span class="step-number">4</span>
+                <h2>Create <code>sitemap.xml</code></h2>
+            </div>
+
+            <p>Without a sitemap, AI crawlers may miss your content entirely. Include your markdown files alongside HTML pages, and keep <code>&lt;lastmod&gt;</code> current — Perplexity heavily cites content less than one year old.</p>
+
+            <pre>&lt;url&gt;
+  &lt;loc&gt;https://yourdomain.com/docs/md/products.md&lt;/loc&gt;
+  &lt;lastmod&gt;2026-03-17&lt;/lastmod&gt;
+  &lt;priority&gt;0.7&lt;/priority&gt;
+&lt;/url&gt;</pre>
+
+
+            <!-- Step 5 -->
+            <div class="step-heading">
+                <span class="step-number">5</span>
+                <h2>Set <code>Content-Type: text/markdown</code> Headers</h2>
+            </div>
+
+            <p>AI agents like Claude Code and OpenCode send <code>Accept: text/markdown</code> request headers. Your server should respond with the correct MIME type so they get clean markdown.</p>
+
+            <h3>Vercel (<code>vercel.json</code>)</h3>
+            <pre>{
+  "headers": [
+    {
+      "source": "/(.*\\.md)",
+      "headers": [
+        { "key": "Content-Type", "value": "text/markdown; charset=utf-8" }
+      ]
+    }
+  ]
+}</pre>
+
+            <h3>Cloudflare</h3>
+            <p>Enable <strong>Markdown for Agents</strong> in the Cloudflare dashboard (Beta, free for Pro+ plans). Cloudflare automatically converts any HTML page to markdown when an AI agent requests it with <code>Accept: text/markdown</code> — no separate markdown files needed.</p>
+
+            <h3>Nginx</h3>
+            <pre>location ~* \.md$ {
+    add_header Content-Type "text/markdown; charset=utf-8";
+}</pre>
+
+
+            <!-- Step 6 -->
+            <div class="step-heading">
+                <span class="step-number">6</span>
+                <h2>Add JSON-LD Structured Data</h2>
+            </div>
+
+            <p>Structured data helps both traditional search engines and AI systems understand your content type, author, and organization. Add to every HTML page:</p>
+
+            <pre>&lt;script type="application/ld+json"&gt;
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Your Company",
+  "url": "https://yourdomain.com",
+  "description": "What your company does.",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-000-000-0000",
+    "email": "info@yourdomain.com"
+  }
+}
+&lt;/script&gt;</pre>
+
+            <p>For blog and guide pages, also add <code>Article</code> and <code>FAQPage</code> schemas. This page uses both.</p>
+
+
+            <!-- Step 7 -->
+            <div class="step-heading">
+                <span class="step-number">7</span>
+                <h2>Content Strategy for AI Citation</h2>
+            </div>
+
+            <p>AI systems cite content that is authoritative, specific, and easy to extract. Your website alone is not enough — AI pulls from multiple sources.</p>
+
+            <h3>Write for RAG, not just readers</h3>
+            <p>RAG (Retrieval-Augmented Generation) is how ChatGPT search and Perplexity work: they search the web live, pull chunks of content, and feed them into the AI model. Your content competes to be retrieved and selected.</p>
+
+            <ul>
+                <li><strong>Gets cited:</strong> specific numbers, FAQ format, clear section headings, summary sentences, bullet lists</li>
+                <li><strong>Gets ignored:</strong> vague claims, long unbroken paragraphs, content buried under navigation</li>
+            </ul>
+
+            <h3>Build presence on sources AI cites most</h3>
+            <ul>
+                <li><strong>Wikipedia / Crunchbase / G2</strong> — complete these profiles thoroughly</li>
+                <li><strong>LinkedIn</strong> — publish thought leadership articles with your target keywords</li>
+                <li><strong>Reddit</strong> — participate genuinely in relevant communities</li>
+                <li><strong>YouTube</strong> — create transcribed video content (AI reads transcripts)</li>
+                <li><strong>Industry publications</strong> — digital PR and editorial mentions carry more weight than backlinks</li>
+            </ul>
+
+            <p>Use identical company descriptions on LinkedIn, Crunchbase, X, and GitHub. Brand consistency across platforms accelerates AI visibility — some companies see ChatGPT visibility improvements within days.</p>
+
+
+            <!-- Checklist -->
+            <h2>Quick Checklist</h2>
+            <ul class="checklist">
+                <li><code>llms.txt</code> at root with company summary and markdown links</li>
+                <li><code>llms-full.txt</code> at root with all content merged</li>
+                <li><code>robots.txt</code> explicitly allowing GPTBot, PerplexityBot, Claude-Web</li>
+                <li><code>sitemap.xml</code> including markdown document URLs</li>
+                <li><code>docs/md/</code> directory with topic-specific markdown files</li>
+                <li><code>Content-Type: text/markdown</code> headers configured for <code>.md</code> files</li>
+                <li>JSON-LD structured data on all key pages</li>
+                <li>Consistent brand descriptions on Crunchbase, LinkedIn, G2</li>
+                <li>FAQ content written in declarative Q&amp;A format</li>
+                <li>Google Analytics segment for AI traffic (ChatGPT, Perplexity, Claude)</li>
+            </ul>
+
+
+            <!-- FAQ -->
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <strong>What is the difference between SEO and GEO?</strong>
+                <p>SEO (Search Engine Optimization) targets Google's ranking algorithm to get blue links. GEO (Generative Engine Optimization) targets AI language models to get cited inside AI-generated answers. Both matter — but GEO requires structured, machine-readable content rather than keyword density.</p>
+            </div>
+
+            <div class="faq-item">
+                <strong>Does llms.txt replace robots.txt?</strong>
+                <p>No. <code>robots.txt</code> controls crawler access (which bots can crawl which pages). <code>llms.txt</code> provides AI-readable content about your site's structure. You need both.</p>
+            </div>
+
+            <div class="faq-item">
+                <strong>Will this work for ChatGPT?</strong>
+                <p>ChatGPT uses RAG (web search) for current information. Allowing GPTBot and OAI-SearchBot in <code>robots.txt</code>, having a sitemap, and providing structured content increases the probability of being retrieved and cited in ChatGPT answers.</p>
+            </div>
+
+            <div class="faq-item">
+                <strong>How long does AI SEO take to show results?</strong>
+                <p>RAG-based systems (Perplexity, ChatGPT search) can reflect changes within days to weeks. Foundation model training data has cutoffs — influence there is longer-term and requires external citation building.</p>
+            </div>
+
+            <div class="faq-item">
+                <strong>Is markdown required, or can HTML work?</strong>
+                <p>AI systems can process HTML, but it costs 5–10x more tokens. Clean HTML with good semantic structure performs better than average, but dedicated markdown files give AI agents the most efficient path to your content.</p>
+            </div>
+
+
+            <!-- CTA -->
+            <div class="cta-box">
+                <h3>See This in Action</h3>
+                <p>We applied every step in this guide to thebermuda.us. Explore our implementation:</p>
+                <p>
+                    <a href="llms.txt" style="color:rgba(255,255,255,0.8); margin-right:16px;">llms.txt</a>
+                    <a href="llms-full.txt" style="color:rgba(255,255,255,0.8); margin-right:16px;">llms-full.txt</a>
+                    <a href="robots.txt" style="color:rgba(255,255,255,0.8); margin-right:16px;">robots.txt</a>
+                    <a href="sitemap.xml" style="color:rgba(255,255,255,0.8);">sitemap.xml</a>
+                </p>
+                <a href="" class="btn-1" data-bs-toggle="modal" data-bs-target="#contactFormModal">Talk to Our Team</a>
+            </div>
+
+        </div>
+    </main>
+
+
+    <!-- Shared Contact Modal -->
+    <div class="modal fade" id="contactFormModal" tabindex="-1" aria-labelledby="contactFormModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" style="border-radius:12px; overflow:hidden;">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <iframe id="JotFormIFrame-233375310898160" title="Bermuda Contact Form"
+                        src="https://form.jotform.com/233375310898160" frameborder="0"
+                        style="min-width:100%;height:80vh;border:none;" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img src="images/Bermuda-logo 1.png" class="img-fluid" alt="logo">
+                    <div class="footer-1">
+                        <small>Bermuda LLC</small>
+                        <p>13101 Preston Rd. Ste 110 <br> Dallas, TX 75240</p>
+                    </div>
+                    <div class="footer-2">
+                        <small>Contact</small>
+                        <br>
+                        <a href="mailto:info@thebermuda.us">info@thebermuda.us</a>
+                        <br>
+                        <a href="tel:+15124288740">(512) 428 8740</a>
+                    </div>
+                    <div class="follow">
+                        <small>Connect With Us:</small>
+                        <ul>
+                            <li><a href="https://linkedin.com/company/bermudatech" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li><a href="https://x.com/BermudaLLC" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li><a href="https://m.youtube.com/@bermuda-llc" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="https://www.thebermuda.us/#product">Rating Solutions</a></li>
+                        <li><a href="https://www.thebermuda.us/#download">Carrier Downloads</a></li>
+                        <li><a href="agentic-ai.html">Agentic AI</a></li>
+                        <li><a href="https://www.thebermuda.us/#about">About</a></li>
+                        <li><a href="https://www.thebermuda.us/#pricing">Pricing</a></li>
+                        <li><a href="https://www.thebermuda.us/blog.html">Blog</a></li>
+                        <li><a href="https://billing.stripe.com/p/login/cN2bJH0O86bsfhmcMM">Subscription Management</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h5>Resources</h5>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms &amp; Conditions</a></li>
+                        <li><a href="ai-seo-guide.html">AI SEO Guide</a></li>
+                        <li><a href="https://www.linkedin.com/newsletters/digital-agency-framework-7293307560814645248/">Newsletter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <hr>
+    <div class="text-center mt-3">
+        <p>&copy; Copyright 2025. All Rights Reserved.</p>
+    </div>
+
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+    <!-- Page Assistant -->
+    <script
+        src="https://ai-dev.thebermuda.us/page-ai/agent.js"
+        data-page-assistant="true"
+        data-tenant-id="bermuda_dev"
+        data-welcome="Hi! Ask me anything about AI SEO, GEO, or how to get your website found by ChatGPT and Perplexity."
+        data-agent-name="Bermuda AI"
+        data-agent-logo="images/bermuda-icon.png"
+        data-primary-color="#5A47FB"
+        data-questions='["What is llms.txt and do I need it?","How do I allow AI crawlers in robots.txt?","What is the difference between SEO and GEO?","How do I get cited by ChatGPT?","Does Cloudflare Markdown for Agents work on Vercel?","How long does AI SEO take to work?","Can you show me the Bermuda llms.txt as an example?"]'
+        data-use-screenshot="false"
+        defer
+    ></script>
+
+</body>
+
+</html>
