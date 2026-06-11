@@ -433,7 +433,7 @@
 
 
     <div class="text-center mt-3">
-        <p>&copy; Copyright 2025. All Rights Reserved.</p>
+        <p><!-- copyright -->&copy; Copyright <span id="copyright-year"></span>. All Rights Reserved.</p>
     </div>
 
 
@@ -456,6 +456,7 @@
         defer
     ></script>
 
+<script>document.getElementById("copyright-year").textContent=new Date().getFullYear();</script>
 </body>
 
 </html>

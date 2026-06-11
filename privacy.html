@@ -226,7 +226,7 @@
 
 
     <div class="text-center mt-3">
-        <p>&copy; Copyright 2025. All Rights Reserved.</p>
+        <p><!-- copyright -->&copy; Copyright <span id="copyright-year"></span>. All Rights Reserved.</p>
     </div>
 
 
@@ -235,6 +235,7 @@
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
 
+<script>document.getElementById("copyright-year").textContent=new Date().getFullYear();</script>
 </body>
 
 </html>
