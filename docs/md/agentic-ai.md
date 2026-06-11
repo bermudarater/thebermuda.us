@@ -2,7 +2,25 @@
 
 **Page:** https://www.thebermuda.us/agentic-ai.html
 
-Bermuda's Agentic AI automates repetitive insurance workflows end-to-end, replacing manual tasks with reliable, tireless AI agents.
+Bermuda's Agentic AI automates repetitive insurance workflows end-to-end, replacing manual tasks with reliable, tireless AI agents. The platform is agent-agnostic: every Bermuda capability is exposed as MCP (Model Context Protocol) tool servers, so Claude, ChatGPT, or any custom agent can connect and do real insurance work.
+
+## MCP Tool Gateway
+
+Bermuda exposes its platform as MCP (Model Context Protocol) tool servers — the open standard AI agents already speak. 40+ tools are in production across four areas:
+
+- **Rating** — create and retrieve quotes; vehicle, driver, and address lookups
+- **Policy** — policy inquiry, payments, documents, carrier uploads
+- **Knowledge** — semantic search over carrier guidelines and agency knowledge bases
+- **Data** — read-only reporting and analytics queries
+
+Works with Claude, ChatGPT, custom agents, IVR voice bots, and chat widgets.
+
+### Security & Governance
+
+- OAuth authentication for every agent — no shared keys, no scraping
+- Default-deny policy engine: an agent can only call tools explicitly permitted
+- Input-level constraints — e.g., cap payment amounts or limit scope per agent
+- Every tool call is authenticated, logged, and monitored
 
 ## Features
 
@@ -39,5 +57,5 @@ Replace repetitive human tasks with AI agents that handle routine servicing requ
 
 - **Contact:** info@thebermuda.us | (512) 428-8740
 - **Products:** https://www.thebermuda.us/#product
-- **Integrations:** https://www.thebermuda.us/#integration
+- **Integrations:** https://www.thebermuda.us/integrations
 - **Live Demo:** https://demo.quotes.thebermuda.us

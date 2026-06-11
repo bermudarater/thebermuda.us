@@ -11,7 +11,7 @@ Bermuda is a Dallas-based InsurTech company with 10+ years of specialization in 
 - **Instant Auto & Home Quotes** — Generate quotes in seconds through an intuitive web app → https://demo.quotes.thebermuda.us
 - **Carrier Downloads** — Real-time data integration and policy management → https://www.carrierdownloads.com
 - **Client Portals** — Self-service platforms with payment automation
-- **Lead Management** — Real-time lead integration and automation with top providers → https://www.thebermuda.us/#integration
+- **Lead Management** — Real-time lead integration and automation with top providers → https://www.thebermuda.us/integrations
 - **Agentic AI Solutions** — AI-powered automation for quoting, binding, payments, and servicing → https://www.thebermuda.us/agentic-ai.html
 
 ## Key Stats
@@ -26,7 +26,7 @@ Bermuda is a Dallas-based InsurTech company with 10+ years of specialization in 
 - **Home:** https://www.thebermuda.us
 - **Products & Rating:** https://www.thebermuda.us/#product
 - **Carrier Downloads:** https://www.carrierdownloads.com
-- **Integrations:** https://www.thebermuda.us/#integration
+- **Integrations:** https://www.thebermuda.us/integrations
 - **Agentic AI:** https://www.thebermuda.us/agentic-ai.html
 - **About Us:** https://www.thebermuda.us/#about
 - **Pricing:** https://www.thebermuda.us/docs/md/pricing.md (enterprise — custom, contact sales)

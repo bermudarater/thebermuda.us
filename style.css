@@ -84,6 +84,25 @@ body {
     color: white;
 }
 
+/* White button for dark/purple backgrounds */
+.btn-2 {
+    background-color: white;
+    color: #5A47FB;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.btn-2:focus {
+    background-color: white;
+    color: #5A47FB;
+}
+
+.btn-2:hover {
+    background-color: #F1EFFF;
+    color: #120879;
+}
+
 .p-div {
     display: table;
     height: 100%;
@@ -164,6 +183,10 @@ body {
 }
 
 /* Section 3 */
+.bermuda-section {
+    padding-block: 70px;
+}
+
 .bermuda-box {
     display: flex;
     gap: 15px;
@@ -907,6 +930,172 @@ body {
     }
 }
 
+/* MCP Gateway Section */
+.mcp-section {
+    background-color: #120879;
+    color: white;
+    padding-block: 90px;
+}
+
+.mcp-section h2 {
+    font-weight: 700;
+}
+
+.mcp-section .mcp-lead {
+    font-size: 18px;
+    color: #D9D4FF;
+    max-width: 720px;
+}
+
+.mcp-chips {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    margin: 25px 0 0;
+}
+
+.mcp-chips li {
+    background-color: #ffffff14;
+    border: 1px solid #7261FF;
+    color: white;
+    border-radius: 40px;
+    padding: 6px 18px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.mcp-check {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.mcp-check li {
+    padding-left: 36px;
+    position: relative;
+    margin-bottom: 16px;
+    color: #EDEBFF;
+}
+
+.mcp-check li::before {
+    content: "\2713";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    background-color: #5A47FB;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.mcp-card {
+    background-color: #0B0552;
+    border: 1px solid #7261FF66;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0px 4px 24px #0000001A;
+    font-family: "SF Mono", "Menlo", "Consolas", monospace;
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+.mcp-card .mcp-card-title {
+    font-family: "Poppins", sans-serif;
+    color: #B8AFFF;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.mcp-card .tool-group {
+    display: flex;
+    gap: 14px;
+    align-items: baseline;
+    padding: 10px 0;
+    border-bottom: 1px solid #ffffff12;
+}
+
+.mcp-card .tool-group:last-child {
+    border-bottom: none;
+}
+
+.mcp-card .tool-name {
+    color: #8FE3B4;
+    min-width: 130px;
+    flex-shrink: 0;
+}
+
+.mcp-card .tool-desc {
+    color: #C9C4F2;
+}
+
+/* Index agentic/MCP teaser */
+.agentic-teaser {
+    background-color: #F1EFFF;
+    padding-block: 80px;
+}
+
+.agentic-teaser h2 {
+    color: #120879;
+}
+
+.agentic-teaser .mcp-lead {
+    color: #120879;
+    font-size: 18px;
+    max-width: 720px;
+}
+
+.agentic-teaser .mcp-chips li {
+    background-color: white;
+    border: 1px solid #5A47FB;
+    color: #120879;
+}
+
+.agentic-teaser .mcp-check li {
+    color: #120879;
+}
+
+/* Integrations teaser (index) */
+.integration-chips {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    padding: 0;
+    margin: 30px 0 35px;
+}
+
+.integration-chips li {
+    background-color: #F1EFFF;
+    color: #120879;
+    border-radius: 40px;
+    padding: 8px 22px;
+    font-size: 15px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+/* Integrations page header */
+.header-content-page {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.header-content-page p {
+    font-size: 18px;
+    max-width: 720px;
+}
+
 /* Video Section */
 .video-section {
     background-color: #F1EFFF;
@@ -1008,6 +1197,30 @@ body {
 
     .how-it-works .col-md-4::after {
         display: none;
+    }
+
+    .mcp-section {
+        padding-block: 60px;
+    }
+
+    .mcp-card {
+        margin-top: 40px;
+        padding: 25px 20px;
+        font-size: 13px;
+    }
+
+    .mcp-card .tool-group {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .agentic-teaser {
+        padding-block: 50px;
+    }
+
+    .integration-chips li {
+        font-size: 13px;
+        padding: 7px 16px;
     }
 }
 

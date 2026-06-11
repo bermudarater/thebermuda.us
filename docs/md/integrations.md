@@ -1,6 +1,6 @@
 # Integrations
 
-**Page:** https://www.thebermuda.us/#integration
+**Page:** https://www.thebermuda.us/integrations
 
 Bermuda connects with 30+ platforms and services. Our API-first architecture enables seamless integration with your existing tools.
 
@@ -67,6 +67,10 @@ Policy, payment, and report data sync to your financial systems.
 - **BrowserStack** — Cross-browser testing
 - **Direct Binding** — Policy binding via integrated rating APIs
 - **Custom Integration** — Connect AI apps to legacy systems via our Open Transaction API
+
+## AI Agents (MCP)
+
+Bermuda's platform is also exposed as MCP (Model Context Protocol) tool servers, so Claude, ChatGPT, or any custom AI agent integrates with quoting, policy data, payments, and knowledge search through one open standard — with OAuth authentication and default-deny, policy-based access control. See https://www.thebermuda.us/docs/md/agentic-ai.md
 
 ## Learn More
 

@@ -15,7 +15,7 @@ Three products, one platform. Bermuda connects an agency's rater, CRM, AMS, and 
 
 1. **Rating** — Bermuda Rater: lead → quote → CRM → bind automation. Real-time rating engine and integration platform for carriers, MGAs, and agencies; instant Auto & Home quotes; real-time lead integration with top providers
 2. **Policy** — Carrier Downloads: live carrier-portal data (due amounts, due dates, late fees, policy changes) read at the moment of action — not hours-old batch files (the key difference vs IVANS); powers payment, cancellation, win-back, and commission automation
-3. **Agentic AI** — Tools for agentic AI operations plus ready-to-work AI agents for quoting, binding, payments, carrier uploads, and servicing — even on low-tech portals
+3. **Agentic AI** — 40+ MCP (Model Context Protocol) tools in production plus ready-to-work AI agents for quoting, binding, payments, carrier uploads, and servicing — even on low-tech portals. Claude, ChatGPT, or any custom agent connects via the open MCP standard.
 
 Also: client portals (self-service platforms with payment automation) and 30+ integrations.
 
@@ -82,6 +82,24 @@ Bermuda Rater works in any state the agency operates in. It connects to the agen
 **Page:** https://www.thebermuda.us/agentic-ai.html
 
 An AI agent without tools and live data just talks. Bermuda's Agentic AI runs quoting, policy binding, payments, and carrier uploads on real-time carrier data — even across low-tech portals. Agencies can bring their own AI and use Bermuda's tools, or let Bermuda's agents run the workflow end to end.
+
+## MCP Tool Gateway
+
+Bermuda exposes its platform as MCP (Model Context Protocol) tool servers — the open standard AI agents already speak. 40+ tools are in production across four areas:
+
+- **Rating** — create and retrieve quotes; vehicle, driver, and address lookups
+- **Policy** — policy inquiry, payments, documents, carrier uploads
+- **Knowledge** — semantic search over carrier guidelines and agency knowledge bases
+- **Data** — read-only reporting and analytics queries
+
+Works with Claude, ChatGPT, custom agents, IVR voice bots, and chat widgets.
+
+### Security & Governance
+
+- OAuth authentication for every agent — no shared keys, no scraping
+- Default-deny policy engine: an agent can only call tools explicitly permitted
+- Input-level constraints — e.g., cap payment amounts or limit scope per agent
+- Every tool call is authenticated, logged, and monitored
 
 ### Real-Time Quoting Automation
 Instantly generate quotes with precision. Eliminates manual data entry and accelerates the quoting process.
@@ -151,7 +169,7 @@ Take control of your information with tools focused on data accuracy and integri
 
 # Integrations
 
-**Page:** https://www.thebermuda.us/#integration
+**Page:** https://www.thebermuda.us/integrations
 
 Bermuda connects with 30+ platforms and services. Our API-first architecture enables seamless integration with your existing tools.
 
@@ -245,7 +263,10 @@ Bermuda focuses on enterprise insurance agencies — operations with custom work
 ## AI Agents & Real-Time Data
 
 **Can my own AI agent use Bermuda?**
-Yes — Bermuda is agent-agnostic. Whichever AI agent you choose (or Bermuda's own), it runs on Bermuda's tools and real-time carrier data: quoting, policy binding, payments, and carrier uploads — live data downloads in, actions and documents upload out.
+Yes — Bermuda is agent-agnostic. The platform is exposed as MCP (Model Context Protocol) tool servers, so Claude, ChatGPT, or your custom agent connects natively to quoting, policy data, payments, and carrier uploads — live data in, actions out. Access is OAuth-authenticated and default-deny: each agent uses only the tools you explicitly permit, with input-level guardrails like payment caps.
+
+**How do you control what an AI agent is allowed to do?**
+Every agent authenticates via OAuth and is governed by a default-deny policy engine: it can only call the tools you explicitly permit. Policies go down to input level — for example, capping the payment amount an agent can process — and every tool call is logged and monitored.
 
 **How is Carrier Downloads different from IVANS?**
 IVANS is batch — downloads are hours old by the time they reach the AMS. Carrier Downloads reads due amounts, due dates, late fees, and statuses live from carrier portals at the moment of action, which makes payment and cancellation automation safe to run.

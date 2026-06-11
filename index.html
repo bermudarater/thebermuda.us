@@ -61,7 +61,7 @@
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="#product">Rating Solutions</a></li>
                                         <li><a class="dropdown-item" href="#download">Carrier Downloads</a></li>
-                                        <li><a class="dropdown-item" href="#integration">Integrations</a></li>
+                                        <li><a class="dropdown-item" href="integrations.html">Integrations</a></li>
                                         <li><a class="dropdown-item" href="agentic-ai.html">Agentic AI</a></li>
                                     </ul>
                                 </li>
@@ -90,13 +90,11 @@
                                         AI agents.
                                         We build what
                                         they run on.</h1>
-                                    <p>Whichever AI agent you choose, it needs tools and live carrier data to act —
-                                        Bermuda provides both, connecting your rater, CRM, AMS, and carrier portals
-                                        into automated workflows.</p>
+                                    <p>Whichever AI agent you choose — Claude, ChatGPT, or your own — it needs tools
+                                        and live carrier data to act. Bermuda provides both over MCP, connecting your
+                                        rater, CRM, AMS, and carrier portals into automated workflows.</p>
                                     <br>
-                                    <a href="https://demo.quotes.thebermuda.us/" target="_blank" class="btn btn-1">Live
-                                        Demo</a>
-                                    <a href="agentic-ai.html" class="works-link">Explore Agentic AI</a>
+                                    <a href="agentic-ai.html" class="btn btn-1">Explore Agentic AI</a>
                                 </div>
                             </div>
 
@@ -205,6 +203,11 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="text-center mt-5">
+                    <a href="https://demo.quotes.thebermuda.us/" target="_blank" class="btn btn-2">Try the Rater — Live
+                        Demo</a>
+                </div>
             </div>
 
         </section>
@@ -284,162 +287,73 @@
         </section>
 
 
-        <!-- Section 3 -->
-        <section class="bermuda-section" id="integration">
+        <!-- Section 3: Agentic AI / MCP -->
+        <section class="agentic-teaser" id="agentic">
             <div class="container">
-                <h2 class="text-center">Bermuda Integrations</h2>
-
-
-                <div class="row gy-4">
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="bermuda-box integration-11">
-                            <div><img src="images/provider.png" width="70" height="70" alt="icon"></div>
-                            <div>
-                                <h5>Lead Provider Integrations</h5>
-                                <p>Bermuda Rater integrates seamlessly with top-performing lead sources in
-                                    real time to receive, enrich, and quote leads instantly.</p>
-                            </div>
-                        </div>
+                <div class="row gy-4 align-items-center">
+                    <div class="col-lg-6 col-md-12">
+                        <h2>Your AI agent already speaks our language</h2>
+                        <p class="mcp-lead mt-3">Every Bermuda capability — quoting, policy data, payments, knowledge
+                            search — is exposed as MCP (Model Context Protocol) tools, the open standard AI agents
+                            connect to natively. Bring your own agent, grant it access, and it gets to work.</p>
+                        <ul class="mcp-check">
+                            <li>OAuth authentication for every agent — no shared keys</li>
+                            <li>Default-deny permissions: agents only use tools you explicitly allow</li>
+                            <li>Input-level guardrails, like capping payment amounts per agent</li>
+                        </ul>
+                        <a href="agentic-ai.html" class="btn btn-1 mt-3">Explore Agentic AI</a>
                     </div>
-
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="bermuda-box integration-7">
-                            <div><img src="images/zapier.png" width="70" height="70" alt="icon"></div>
-                            <div>
-                                <h5>Zapier</h5>
-                                <p>Automate workflows by connecting Bermuda Rater with thousands of apps.</p>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="mcp-card">
+                            <div class="mcp-card-title">Bermuda MCP Tool Servers</div>
+                            <div class="tool-group">
+                                <span class="tool-name">rating</span>
+                                <span class="tool-desc">quote &middot; vehicle &middot; driver &middot; address</span>
+                            </div>
+                            <div class="tool-group">
+                                <span class="tool-name">policy</span>
+                                <span class="tool-desc">inquiry &middot; payments &middot; documents</span>
+                            </div>
+                            <div class="tool-group">
+                                <span class="tool-name">knowledge</span>
+                                <span class="tool-desc">search &middot; carrier guidelines &middot; agency KB</span>
+                            </div>
+                            <div class="tool-group">
+                                <span class="tool-name">data</span>
+                                <span class="tool-desc">read-only reporting &middot; analytics</span>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="bermuda-box integration-3">
-                            <div><img src="images/turbo.png" width="70" height="70" alt="icon"></div>
-                            <div>
-                                <h5>Turborater</h5>
-                                <p>Integrated rating API provider for real-time insurance quotes.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="bermuda-box integration-11">
-                            <div><img src="images/prefill.png" width="70" height="70" alt="icon"></div>
-                            <div>
-                                <h5>Prefill Data Services</h5>
-                                <p>We auto-fill user data from trusted sources: Public Data, DCS, Fenris,
-                                    TransUnion, TurboRater Autofill (Home).</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="bermuda-box integration-5">
-                            <div><img src="images/twilio.png" width="70" height="70" alt="icon"></div>
-                            <div>
-                                <h5>Twilio SMS</h5>
-                                <p>Send and receive automated text messages for customer engagement.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="bermuda-box integration-6">
-                            <div><img src="images/sendgrid.png" width="70" height="70" alt="icon"></div>
-                            <div>
-                                <h5>SendGrid</h5>
-                                <p>Deliver customer notifications and marketing emails reliably.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="bermuda-box integration-7">
-                            <div><img src="images/analytics.png" width="70" height="70" alt="icon"></div>
-                            <div>
-                                <h5>Google Analytics</h5>
-                                <p>Track user activity and conversion metrics within your Bermuda-powered portals.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="bermuda-box integration-8">
-                            <div><img src="images/mouseflow.png" width="70" height="70" alt="icon"></div>
-                            <div>
-                                <h5>Mouseflow</h5>
-                                <p>Visual session replays and heatmaps for user behavior analysis.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="bermuda-box integration-9">
-                            <div><img src="images/freshchats.png" width="70" height="70" alt="icon"></div>
-                            <div>
-                                <h5>Fresh Chats</h5>
-                                <p>Real-time customer support chat solution for your agency site.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="bermuda-box integration-10">
-                            <div><img src="images/improvely.png" width="70" height="70" alt="icon"></div>
-                            <div>
-                                <h5>Improvely</h5>
-                                <p>Track the origin of leads and optimize marketing attribution.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="bermuda-box integration-11">
-                            <div><img src="images/podium.png" width="70" height="70" alt="icon"></div>
-                            <div>
-                                <h5>Podium</h5>
-                                <p>Text communication to boost local reputation.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="bermuda-box integration-4">
-                            <div><img src="images/direct.png" width="70" height="70" alt="icon"></div>
-                            <div>
-                                <h5>Direct Binding</h5>
-                                <p>Bind policies directly via integrated rating APIs for faster underwriting.</p>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="bermuda-box integration-1">
-                            <div><img src="images/quickbooks.png" width="70" height="70" alt="icon"></div>
-                            <div>
-                                <h5>QuickBooks</h5>
-                                <p>Track all insurance-related transactions. Sync with QuickBooks for taxes and
-                                    financial
-                                    statements.</p>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="bermuda-box integration-12">
-                            <div><img src="images/infinity.png" width="70" height="70" alt="icon"></div>
-                            <div>
-                                <h5>Custom Integration</h5>
-                                <p>Endless options. If you can imagine it, we can connect it. From AI apps to legacy
-                                    tools.</p>
-                            </div>
-                        </div>
+                        <ul class="mcp-chips justify-content-center">
+                            <li>Claude</li>
+                            <li>ChatGPT</li>
+                            <li>Custom agents</li>
+                            <li>IVR voice bots</li>
+                        </ul>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Integrations teaser -->
+        <section class="bermuda-section" id="integration">
+            <div class="container text-center">
+                <h2>Bermuda Integrations</h2>
+                <p class="mx-auto" style="max-width: 720px;">30+ native integrations connect Bermuda to the tools your
+                    agency already runs — lead providers, rating APIs, CRMs, communication, accounting, and more.</p>
+                <ul class="integration-chips">
+                    <li>Lead Providers</li>
+                    <li>TurboRater</li>
+                    <li>Direct Binding</li>
+                    <li>NowCerts</li>
+                    <li>Zapier</li>
+                    <li>Twilio</li>
+                    <li>SendGrid</li>
+                    <li>QuickBooks</li>
+                    <li>TransUnion</li>
+                    <li>Podium</li>
+                    <li>+ more</li>
+                </ul>
+                <a href="integrations.html" class="btn btn-1">View All Integrations</a>
             </div>
         </section>
 
@@ -602,10 +516,29 @@
                                 </h2>
                                 <div id="item21" class="accordion-collapse collapse" data-bs-parent="#modernAccordion">
                                     <div class="accordion-body">
-                                        Yes — Bermuda is agent-agnostic. Whichever AI agent you choose (or ours), it
-                                        runs on Bermuda's tools and real-time carrier data: quoting, policy binding,
-                                        payments, and carrier uploads — live data in, actions out. An AI agent
-                                        without tools and live data just talks; Bermuda provides both.
+                                        Yes — Bermuda is agent-agnostic. Our platform is exposed as MCP (Model
+                                        Context Protocol) tool servers, so Claude, ChatGPT, or your custom agent
+                                        connects natively to quoting, policy data, payments, and carrier uploads —
+                                        live data in, actions out. Access is OAuth-authenticated and default-deny:
+                                        each agent uses only the tools you explicitly permit, with input-level
+                                        guardrails like payment caps.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item custom-accordion mb-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#item24">
+                                        How do you control what an AI agent is allowed to do?
+                                    </button>
+                                </h2>
+                                <div id="item24" class="accordion-collapse collapse" data-bs-parent="#modernAccordion">
+                                    <div class="accordion-body">
+                                        Every agent authenticates via OAuth and is governed by a default-deny policy
+                                        engine: it can only call the tools you explicitly permit. Policies go down to
+                                        input level — for example, capping the payment amount an agent can process —
+                                        and every tool call is logged and monitored.
                                     </div>
                                 </div>
                             </div>
@@ -1109,6 +1042,7 @@
                     <ul>
                         <li><a href="#product">Rating Solutions</a></li>
                         <li><a href="#download">Carrier Downloads</a></li>
+                        <li><a href="integrations.html">Integrations</a></li>
                         <li><a href="agentic-ai.html">Agentic AI</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="blog.html">Blog</a></li>
@@ -1183,7 +1117,7 @@
         data-agent-name="Bermuda AI"
         data-agent-logo="images/bermuda-icon.png"
         data-primary-color="#5A47FB"
-        data-questions='["Who is Bermuda?", "What is Bermuda Rater?","How does Bermuda Rater integrate with other systems?","What is Carrier Downloads?","Can I try Bermuda Rater for free?","What is Agentic AI?","How do I get started?"]'
+        data-questions='["Who is Bermuda?", "What is Bermuda Rater?","Can my AI agent use Bermuda via MCP?","What is Carrier Downloads?","How does Bermuda Rater integrate with other systems?","What is Agentic AI?","How do I get started?"]'
         data-use-screenshot="false"
         defer
     ></script>

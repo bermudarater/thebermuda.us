@@ -19,7 +19,7 @@ Auto & Home quotes obtainable through an intuitive web app interface. Seamless, 
 On-the-go access with effortless navigation and quote retrieval on any mobile device.
 
 ### Real-time Leads
-Fresh, high-quality leads delivered directly into the online quoting web app. Competitive sales advantage with instant lead-to-quote conversion. See integrations: https://www.thebermuda.us/#integration
+Fresh, high-quality leads delivered directly into the online quoting web app. Competitive sales advantage with instant lead-to-quote conversion. See integrations: https://www.thebermuda.us/integrations
 
 ### Power of Integration
 Unified approach eliminating data silos for efficient insurance sales management. API-first, modular architecture.
@@ -47,5 +47,5 @@ Bermuda Rater works in any state the agency operates in. It connects to the agen
 ## Learn More
 
 - **Pricing:** https://www.thebermuda.us/docs/md/pricing.md (enterprise — custom, contact sales)
-- **Integrations:** https://www.thebermuda.us/#integration
+- **Integrations:** https://www.thebermuda.us/integrations
 - **Agentic AI:** https://www.thebermuda.us/agentic-ai.html

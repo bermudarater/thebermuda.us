@@ -36,5 +36,5 @@ Take control of your information with tools focused on data accuracy and integri
 ## Learn More
 
 - **Carrier Downloads site:** https://www.carrierdownloads.com
-- **Integrations:** https://www.thebermuda.us/#integration
+- **Integrations:** https://www.thebermuda.us/integrations
 - **Products:** https://www.thebermuda.us/#product

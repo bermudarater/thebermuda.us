@@ -13,7 +13,10 @@ Bermuda focuses on enterprise insurance agencies — operations with custom work
 ## AI Agents & Real-Time Data
 
 **Can my own AI agent use Bermuda?**
-Yes — Bermuda is agent-agnostic. Whichever AI agent you choose (or Bermuda's own), it runs on Bermuda's tools and real-time carrier data: quoting, policy binding, payments, and carrier uploads, in both directions — live data downloads in, actions and documents upload out. An AI agent without tools and live data just talks; Bermuda provides both.
+Yes — Bermuda is agent-agnostic. The platform is exposed as MCP (Model Context Protocol) tool servers, so Claude, ChatGPT, or your custom agent connects natively to quoting, policy data, payments, and carrier uploads — live data in, actions out. Access is OAuth-authenticated and default-deny: each agent uses only the tools you explicitly permit, with input-level guardrails like payment caps. Details: https://www.thebermuda.us/docs/md/agentic-ai.md
+
+**How do you control what an AI agent is allowed to do?**
+Every agent authenticates via OAuth and is governed by a default-deny policy engine: it can only call the tools you explicitly permit. Policies go down to input level — for example, capping the payment amount an agent can process — and every tool call is logged and monitored.
 
 **How is Carrier Downloads different from IVANS?**
 IVANS is batch — downloads are hours old by the time they reach your AMS. Carrier Downloads reads due amounts, due dates, late fees, and statuses live from carrier portals at the moment of action, which is what makes payment and cancellation automation safe to run. More: https://www.carrierdownloads.com
@@ -32,13 +35,13 @@ Yes. Bermuda Rater works in any state the agency operates in — it integrates w
 ## Integrations
 
 **What CRM integrations are available?**
-NowCerts, InsuredMine, FreshWorks, Velocify, InsurancePro, and others. Data flows automatically bidirectionally via webhooks and APIs. Full list: https://www.thebermuda.us/#integration
+NowCerts, InsuredMine, FreshWorks, Velocify, InsurancePro, and others. Data flows automatically bidirectionally via webhooks and APIs. Full list: https://www.thebermuda.us/integrations
 
 **Does it support external data prefilling?**
 Yes, through Prefill Data API accessing TransUnion, Fenris, DCS, and public records, reducing data entry friction.
 
 **What other integrations are supported?**
-Twilio, SendGrid, Google Analytics, Mouseflow, Freshchats, Improvely, Podium, Zapier, Gmail, Google reCAPTCHA, Sentry, BrowserStack, and more. Full list: https://www.thebermuda.us/#integration
+Twilio, SendGrid, Google Analytics, Mouseflow, Freshchats, Improvely, Podium, Zapier, Gmail, Google reCAPTCHA, Sentry, BrowserStack, and more. Full list: https://www.thebermuda.us/integrations
 
 **Does it integrate with accounting software?**
 Yes — QuickBooks, Microsoft Dynamics GP, Oracle NetSuite. Policy, payment, and report data sync to financial systems.
