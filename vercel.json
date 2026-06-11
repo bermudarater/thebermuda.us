@@ -17,6 +17,13 @@
       ]
     },
     {
+      "source": "/(.*\\.vcf)",
+      "headers": [
+        { "key": "Content-Type", "value": "text/vcard; charset=utf-8" },
+        { "key": "X-Robots-Tag", "value": "noindex, nofollow, noarchive" }
+      ]
+    },
+    {
       "source": "/llms-full.txt",
       "headers": [
         { "key": "Content-Type", "value": "text/markdown; charset=utf-8" },

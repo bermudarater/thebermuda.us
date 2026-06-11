@@ -4,6 +4,9 @@
 # Allow all crawlers by default
 User-agent: *
 Allow: /
+# Personal contact card + conference landing page — not for indexing
+Disallow: /mustafa-basaran.vcf
+Disallow: /insurcon
 
 # AI Search Crawlers — explicitly welcome
 User-agent: GPTBot
