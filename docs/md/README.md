@@ -1,6 +1,6 @@
 # Bermuda LLC
 
-Bermuda is a forward-thinking InsurTech company specializing in insurance technology for 10+ years. We transform insurance through digital innovation and empower agencies via streamlined operations, enhanced customer experiences, and sales growth through automation.
+Bermuda is a Dallas-based InsurTech company with 10+ years of specialization in the insurance domain. We build the infrastructure insurance agencies run on — rating, live carrier data, and agentic AI — and believe technology should simplify, not complicate.
 
 **Tagline:** Everyone sells AI agents. We build what they run on.
 **Website:** https://www.thebermuda.us
