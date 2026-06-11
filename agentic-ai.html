@@ -177,16 +177,18 @@
             <div class="container">
                 <div class="row gy-4 align-items-center">
                     <div class="col-lg-6 col-md-12">
-                        <h2>One protocol. Every Bermuda tool.</h2>
+                        <h2>One protocol. Every tool — ours and yours.</h2>
                         <p class="mcp-lead mt-3">Bermuda's platform is exposed as MCP (Model Context Protocol) tool
                             servers — the open standard AI agents already speak. Connect Claude, ChatGPT, or your
                             in-house agent and it can quote, look up policies, take payments, and search your
-                            knowledge base from day one. No custom integration project required.</p>
+                            knowledge base from day one. And it doesn't stop at our platform: we wrap the systems you
+                            already run — your AMS, your CRM, proprietary databases, legacy APIs — as custom MCP tools
+                            behind the same gateway, with the same guardrails.</p>
                         <ul class="mcp-check">
                             <li>OAuth authentication for every agent — no shared keys, no scraping</li>
                             <li>Default-deny policy engine: an agent can only call tools you explicitly permit</li>
                             <li>Input-level constraints — cap payment amounts or limit scope per agent</li>
-                            <li>Every tool call authenticated, logged, and monitored</li>
+                            <li>Your custom-wrapped tools run under the same policy engine — no exceptions</li>
                         </ul>
                         <ul class="mcp-chips">
                             <li>Claude</li>
@@ -197,26 +199,45 @@
                         </ul>
                     </div>
                     <div class="col-lg-6 col-md-12">
-                        <div class="mcp-card">
-                            <div class="mcp-card-title">Bermuda MCP Tool Servers &middot; 40+ tools in production</div>
-                            <div class="tool-group">
-                                <span class="tool-name">rating</span>
-                                <span class="tool-desc">create &amp; retrieve quotes &middot; vehicle, driver &amp;
-                                    address lookups</span>
+                        <div class="mcp-card mcp-duo">
+                            <div class="mcp-card-title">One MCP toolbox &middot; ours + yours</div>
+                            <div class="mcp-ours">
+                                <div class="mcp-group-tag">Bermuda platform &middot; 40+ tools, built in</div>
+                                <div class="tool-group">
+                                    <span class="tool-name">rating</span>
+                                    <span class="tool-desc">create &amp; retrieve quotes &middot; vehicle, driver &amp;
+                                        address lookups</span>
+                                </div>
+                                <div class="tool-group">
+                                    <span class="tool-name">policy</span>
+                                    <span class="tool-desc">policy inquiry &middot; payments &middot; documents &middot;
+                                        carrier uploads</span>
+                                </div>
+                                <div class="tool-group">
+                                    <span class="tool-name">knowledge</span>
+                                    <span class="tool-desc">semantic search over carrier guidelines &amp; agency
+                                        knowledge bases</span>
+                                </div>
+                                <div class="tool-group">
+                                    <span class="tool-name">data</span>
+                                    <span class="tool-desc">read-only reporting &amp; analytics queries</span>
+                                </div>
                             </div>
-                            <div class="tool-group">
-                                <span class="tool-name">policy</span>
-                                <span class="tool-desc">policy inquiry &middot; payments &middot; documents &middot;
-                                    carrier uploads</span>
-                            </div>
-                            <div class="tool-group">
-                                <span class="tool-name">knowledge</span>
-                                <span class="tool-desc">semantic search over carrier guidelines &amp; agency
-                                    knowledge bases</span>
-                            </div>
-                            <div class="tool-group">
-                                <span class="tool-name">data</span>
-                                <span class="tool-desc">read-only reporting &amp; analytics queries</span>
+                            <div class="mcp-yours">
+                                <div class="mcp-group-tag mcp-group-tag-yours">Your stack &middot; wrapped as custom tools</div>
+                                <div class="tool-group">
+                                    <span class="tool-name">your-ams</span>
+                                    <span class="tool-desc">clients &middot; policies &middot; activity notes</span>
+                                </div>
+                                <div class="tool-group">
+                                    <span class="tool-name">your-crm</span>
+                                    <span class="tool-desc">leads &middot; tasks &middot; follow-ups</span>
+                                </div>
+                                <div class="tool-group">
+                                    <span class="tool-name">your-data</span>
+                                    <span class="tool-desc">proprietary databases &middot; legacy APIs</span>
+                                </div>
+                                <div class="mcp-yours-note">Same OAuth, permissions &amp; guardrails as every Bermuda tool</div>
                             </div>
                         </div>
                     </div>

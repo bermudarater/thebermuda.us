@@ -16,7 +16,7 @@
 ## Products & Solutions
 
 - [Bermuda Rater — Rating Engine & Integration Platform](https://www.thebermuda.us/docs/md/products.md): Real-time auto & home quote generation, API-first modular architecture, multi-state quoting, TurboRater/Direct Binding support
-- [Agentic AI Solutions](https://www.thebermuda.us/docs/md/agentic-ai.md): Agent-agnostic tools + real-time data for AI agents (bring your own AI or use Bermuda's) — 40+ MCP (Model Context Protocol) tools in production for quoting, policy data, payments, carrier uploads, and knowledge search, with OAuth and default-deny policy-based access control. Works with Claude, ChatGPT, and custom agents.
+- [Agentic AI Solutions](https://www.thebermuda.us/docs/md/agentic-ai.md): Agent-agnostic tools + real-time data for AI agents (bring your own AI or use Bermuda's) — 40+ MCP (Model Context Protocol) tools in production for quoting, policy data, payments, carrier uploads, and knowledge search, with OAuth and default-deny policy-based access control. Bermuda also wraps an agency's existing systems (AMS, CRM, legacy APIs) as custom MCP tool servers. Works with Claude, ChatGPT, and custom agents.
 - [Carrier Downloads](https://www.thebermuda.us/docs/md/carrier-downloads.md): Real-time policy and payment data sync from carriers, single source of truth for all policy data
 - [Integrations](https://www.thebermuda.us/docs/md/integrations.md): 30+ integrations — top real-time lead providers, NowCerts, Twilio, SendGrid, QuickBooks, Zapier, and more
 - [Pricing](https://www.thebermuda.us/docs/md/pricing.md): Enterprise-focused, custom pricing scoped to the agency's workflows, carriers, integrations, and volume — contact sales

@@ -15,6 +15,10 @@ Bermuda exposes its platform as MCP (Model Context Protocol) tool servers — th
 
 Works with Claude, ChatGPT, custom agents, IVR voice bots, and chat widgets.
 
+### Your Existing Systems, Too
+
+It doesn't stop at Bermuda's platform: Bermuda also wraps an agency's existing systems — AMS, CRM, proprietary databases, legacy APIs — as custom MCP tool servers, governed by the same OAuth authentication and default-deny policy guardrails. One gateway, every tool your agents need.
+
 ### Security & Governance
 
 - OAuth authentication for every agent — no shared keys, no scraping

@@ -1064,6 +1064,106 @@ body {
     color: #120879;
 }
 
+/* Two-sided MCP card: Bermuda tools + the agency's wrapped tools (index teaser).
+   New classes only — the shared .mcp-card/.tool-* rules and the navy .mcp-section
+   on agentic-ai.html are untouched. Placed after .mcp-card so .mcp-yours .tool-name
+   (equal specificity) wins by source order. */
+.mcp-duo .mcp-group-tag {
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #8FE3B4;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 2px;
+}
+
+.mcp-duo .mcp-group-tag::after {
+    content: "";
+    height: 1px;
+    flex: 1;
+    min-width: 24px;
+    background-color: #ffffff1f;
+}
+
+.mcp-duo .mcp-group-tag-yours {
+    color: #D9D4FF;
+}
+
+.mcp-yours {
+    position: relative;
+    margin-top: 26px;
+    padding: 16px 18px 14px;
+    border: 1.5px dashed #7261FF;
+    border-radius: 14px;
+    background-color: #ffffff08;
+}
+
+.mcp-yours::before {
+    content: "+";
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 28px;
+    height: 28px;
+    background-color: #5A47FB;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    animation: mcp-plus-pulse 2.8s ease-in-out infinite;
+}
+
+.mcp-yours .tool-name {
+    color: #D9D4FF;
+}
+
+.mcp-yours-note {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #B8AFFF;
+    margin-top: 10px;
+}
+
+@keyframes mcp-plus-pulse {
+    0%, 100% {
+        box-shadow: 0 0 0 0 rgba(90, 71, 251, 0.45);
+    }
+    50% {
+        box-shadow: 0 0 0 9px rgba(90, 71, 251, 0);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .mcp-yours::before {
+        animation: none;
+    }
+}
+
+.mcp-chips-label {
+    text-align: center;
+    margin-top: 28px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #5A47FB;
+}
+
+.mcp-chips-label + .mcp-chips {
+    margin-top: 12px;
+}
+
 /* Integrations teaser (index) */
 .integration-chips {
     list-style: none;
@@ -1216,6 +1316,16 @@ body {
 
     .agentic-teaser {
         padding-block: 50px;
+    }
+
+    .mcp-yours {
+        margin-top: 24px;
+        padding: 14px 12px 12px;
+    }
+
+    .mcp-duo .mcp-group-tag {
+        font-size: 10px;
+        letter-spacing: 1px;
     }
 
     .integration-chips li {
