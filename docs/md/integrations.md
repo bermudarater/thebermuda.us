@@ -6,15 +6,7 @@ Bermuda connects with 30+ platforms and services. Our API-first architecture ena
 
 ## Lead Providers
 
-Native real-time connections — leads are automatically fetched, validated, and instantly quoted.
-
-- **EverQuote** — Real-time lead delivery and quoting
-- **QuinStreet** — Automated lead integration
-- **QuoteWizard** — Instant lead receipt and enrichment
-- **SmartFinancial** — Real-time lead connection
-- **MediaAlpha** — Lead integration and automation
-
-Each provider has customizable mapping logic, validation rules, workflows, filters, enrichment, deduplication rules, and quote handling.
+Native real-time connections to top-performing lead providers — leads are automatically fetched, validated, and instantly quoted. Each provider connection has customizable mapping logic, validation rules, workflows, filters, enrichment, deduplication rules, and quote handling.
 
 ## CRM Integrations
 

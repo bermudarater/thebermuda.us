@@ -46,7 +46,7 @@ Yes — QuickBooks, Microsoft Dynamics GP, Oracle NetSuite. Policy, payment, and
 ## Lead Management
 
 **Which real-time lead providers are supported?**
-EverQuote, QuinStreet, QuoteWizard, SmartFinancial, and MediaAlpha. Leads are automatically fetched, validated, and instantly quoted.
+All major real-time lead providers. Leads are automatically fetched, validated, and instantly quoted.
 
 **How does lead integration work?**
 Leads are received via secure API or webhook. The platform immediately pre-fills data, runs quotes using configured rating providers, and optionally routes to CRM/AMS.
