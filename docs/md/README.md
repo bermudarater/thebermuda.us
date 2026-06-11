@@ -2,7 +2,7 @@
 
 Bermuda is a forward-thinking InsurTech company specializing in insurance technology for 10+ years. We transform insurance through digital innovation and empower agencies via streamlined operations, enhanced customer experiences, and sales growth through automation.
 
-**Tagline:** Sell more with automation
+**Tagline:** Everyone sells AI agents. We build what they run on.
 **Website:** https://www.thebermuda.us
 
 ## What We Do
@@ -29,7 +29,7 @@ Bermuda is a forward-thinking InsurTech company specializing in insurance techno
 - **Integrations:** https://www.thebermuda.us/#integration
 - **Agentic AI:** https://www.thebermuda.us/agentic-ai.html
 - **About Us:** https://www.thebermuda.us/#about
-- **Pricing:** https://www.thebermuda.us/#pricing
+- **Pricing:** https://www.thebermuda.us/docs/md/pricing.md (enterprise — custom, contact sales)
 - **FAQs:** https://www.thebermuda.us/#faqs
 - **Blog:** https://www.thebermuda.us/blog.html
 - **Live Demo:** https://demo.quotes.thebermuda.us

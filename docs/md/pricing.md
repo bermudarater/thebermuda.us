@@ -1,46 +1,22 @@
 # Pricing
 
-**Page:** https://www.thebermuda.us/#pricing
+Bermuda focuses on enterprise insurance agencies — operations with custom workflows, multiple data sources, and high policy volume.
 
-All plans include a 1-month free trial.
+**Pricing is custom**, scoped to your agency's workflows, carriers, integrations, and volume. There is no fixed plan list.
 
-## Basic — $249/month
+## What an engagement typically covers
 
-Best for small agencies with few locations operating in one state.
-
-- 1 Business Line (Auto)
-- Single State Quotes
-- Page personalization
-- Email/SMS Notifications
-- 249 quotes per month
-- Paid data and click leads access
-
-## Business — $499/month
-
-Best for growing multi-state agencies.
-
-- 1 Business Line (Auto)
-- Multi-State Quotes
-- Customizable Coverage Packages
-- Embed 3rd Party JavaScripts
-- 999 quotes per month
-- Paid data and click leads access
-
-## Enterprise — Custom Pricing
-
-Best for agencies with custom workflows and multiple data sources.
-
-- Real-time Rater Integration
-- Auto & Home Lines
-- Online Policy Purchase
-- Prefill & Public Data Services
-- Open API/Webhooks access
+- Real-time Rater integration (Auto & Home lines, online policy purchase)
+- Carrier Downloads — live carrier-portal data and payment automation
+- Agentic AI — tools and AI agents for quoting, binding, payments, carrier uploads
+- Prefill & public data services
+- Open API / Webhooks and custom integrations (CRM, AMS, accounting)
 - Unlimited monthly quotes
-- Paid data and click leads access
 
-## Get Started
+## Contact Sales
 
-- **Live Demo:** https://demo.quotes.thebermuda.us
 - **Email:** info@thebermuda.us
 - **Phone:** (512) 428-8740
-- **Billing Portal:** https://billing.stripe.com/p/login/5kAbLy4Lk3xo3RK000
+- **Demo request:** https://form.jotform.com/233375310898160
+- **Live Rater demo:** https://demo.quotes.thebermuda.us
+- **Billing Portal (existing customers):** https://billing.stripe.com/p/login/5kAbLy4Lk3xo3RK000

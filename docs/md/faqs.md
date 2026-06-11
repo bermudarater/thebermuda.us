@@ -8,7 +8,18 @@
 A rating engine and integration platform for carriers, MGAs, and agencies enabling real-time quote generation, API connections, and automated workflows powering customer portals and AMS systems. Learn more: https://www.thebermuda.us/#product
 
 **Who is it for?**
-Insurance carriers, MGAs, agency owners, and digital agencies building insurance technology. Integrates with rating APIs, CRMs, conversion tools, and document systems.
+Bermuda focuses on enterprise insurance agencies — operations with custom workflows, multiple data sources, and high policy volume. Also serves carriers, MGAs, and digital agencies building insurance technology. Integrates with rating APIs, CRMs, conversion tools, and document systems.
+
+## AI Agents & Real-Time Data
+
+**Can my own AI agent use Bermuda?**
+Yes — Bermuda is agent-agnostic. Whichever AI agent you choose (or Bermuda's own), it runs on Bermuda's tools and real-time carrier data: quoting, policy binding, payments, and carrier uploads, in both directions — live data downloads in, actions and documents upload out. An AI agent without tools and live data just talks; Bermuda provides both.
+
+**How is Carrier Downloads different from IVANS?**
+IVANS is batch — downloads are hours old by the time they reach your AMS. Carrier Downloads reads due amounts, due dates, late fees, and statuses live from carrier portals at the moment of action, which is what makes payment and cancellation automation safe to run. More: https://www.carrierdownloads.com
+
+**How much does it cost?**
+Pricing is custom and scoped to your agency's workflows, carriers, integrations, and volume — there is no fixed plan list. Contact sales: info@thebermuda.us | (512) 428-8740. Details: https://www.thebermuda.us/docs/md/pricing.md
 
 ## Rating & Quoting
 
@@ -16,7 +27,7 @@ Insurance carriers, MGAs, agency owners, and digital agencies building insurance
 TurboRater and Direct Binding, with modular architecture enabling additional quoting engines upon request.
 
 **Can I get quotes for multiple states?**
-Yes. Bermuda Rater works in any state the agency operates in — it integrates with the agency's preferred real-time rater and their active carriers. Multi-state quoting is available on Business and Enterprise plans. See pricing: https://www.thebermuda.us/#pricing
+Yes. Bermuda Rater works in any state the agency operates in — it integrates with the agency's preferred real-time rater and their active carriers. Multi-state quoting is included — pricing is custom and scoped per agency: https://www.thebermuda.us/docs/md/pricing.md
 
 ## Integrations
 

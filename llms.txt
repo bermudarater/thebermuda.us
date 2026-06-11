@@ -1,6 +1,6 @@
 # Bermuda LLC
 
-> InsurTech company specializing in insurance automation for 10+ years. Bermuda empowers insurance agencies with real-time rating, agentic AI workflows, carrier data integration, and lead automation — helping agents sell more with less manual work.
+> InsurTech company specializing in insurance automation for 10+ years. Everyone sells AI agents — Bermuda builds what they run on: real-time carrier data, rating, and policy automation for independent, multi-carrier insurance agencies. Three products that work together — Rating (lead-to-quote-to-bind), Policy (Carrier Downloads, live carrier-portal data), and Agentic AI (tools + agents) — connecting raters, CRMs, AMS, and carrier portals into digital automated workflows.
 
 **Website:** https://www.thebermuda.us
 **Contact:** info@thebermuda.us | (512) 428-8740
@@ -16,10 +16,10 @@
 ## Products & Solutions
 
 - [Bermuda Rater — Rating Engine & Integration Platform](https://www.thebermuda.us/docs/md/products.md): Real-time auto & home quote generation, API-first modular architecture, multi-state quoting, TurboRater/Direct Binding support
-- [Agentic AI Solutions](https://www.thebermuda.us/docs/md/agentic-ai.md): End-to-end AI automation for quoting, policy binding, payment processing, carrier uploads, and servicing agents
+- [Agentic AI Solutions](https://www.thebermuda.us/docs/md/agentic-ai.md): Agent-agnostic tools + real-time data for AI agents (bring your own AI or use Bermuda's) — quoting, policy binding, payment processing, carrier uploads, and servicing agents
 - [Carrier Downloads](https://www.thebermuda.us/docs/md/carrier-downloads.md): Real-time policy and payment data sync from carriers, single source of truth for all policy data
 - [Integrations](https://www.thebermuda.us/docs/md/integrations.md): 30+ integrations — EverQuote, QuinStreet, QuoteWizard, NowCerts, Twilio, SendGrid, QuickBooks, Zapier, and more
-- [Pricing](https://www.thebermuda.us/docs/md/pricing.md): Basic ($249/mo), Business ($499/mo), Enterprise (custom) — all with 1-month free trial
+- [Pricing](https://www.thebermuda.us/docs/md/pricing.md): Enterprise-focused, custom pricing scoped to the agency's workflows, carriers, integrations, and volume — contact sales
 - [FAQs](https://www.thebermuda.us/docs/md/faqs.md): Common questions about rating, integrations, lead management, automation, and technical setup
 
 ## Guides & Resources

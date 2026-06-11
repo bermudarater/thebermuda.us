@@ -8,11 +8,11 @@
     <!-- Primary Meta Tags -->
     <meta name="title" content="Bermuda at INSURCON 2026 — Real-Time Carrier Data & Payment Automation">
     <meta name="description"
-        content="Real-time carrier portal data and payment automation for independent, multi-carrier agencies. Nice meeting you at INSURCON 2026.">
+        content="Real-time carrier portal data and payment automation for independent, multi-carrier agencies. Good to connect at INSURCON 2026.">
     <meta name="robots" content="noindex">
 
     <!--Page Title-->
-    <title>Bermuda — Nice Meeting You at INSURCON 2026</title>
+    <title>Bermuda — Good to Connect at INSURCON 2026</title>
 
     <!--Favicon-->
     <link rel="shortcut icon" href="images/favicon.ico" title="Favicon">
@@ -54,11 +54,31 @@
             margin-bottom: 28px;
         }
 
+        .kicker {
+            color: #5A47FB;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
         .hero h1 {
             color: #120879;
             font-weight: 600;
             font-size: 26px;
             line-height: 1.35;
+        }
+
+        .hero h1 .accent {
+            color: #5A47FB;
+        }
+
+        .hero p.lede {
+            margin-top: 14px;
+            font-size: 16px;
+            line-height: 1.55;
+            color: #1a1a2e;
         }
 
         .hero p.sub {
@@ -155,6 +175,28 @@
             margin-bottom: 14px;
         }
 
+        .card-kicker {
+            color: #5A47FB;
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            margin-bottom: 6px;
+        }
+
+        .connect-line {
+            text-align: center;
+            font-size: 15px;
+            line-height: 1.55;
+            color: #1a1a2e;
+            margin-top: 28px;
+            padding: 0 8px;
+        }
+
+        .connect-line strong {
+            color: #120879;
+        }
+
         .vs-list {
             list-style: none;
         }
@@ -183,6 +225,14 @@
 
         .vs-list li strong {
             color: #120879;
+        }
+
+        a.plink {
+            color: #5A47FB;
+            font-weight: 600;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            text-decoration-thickness: 1.5px;
         }
 
         .more-link {
@@ -227,18 +277,46 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            min-height: 56px;
-            padding: 12px 10px;
-            border-radius: 10px;
+            gap: 12px;
+            min-height: 60px;
+            padding: 12px 14px;
+            border-radius: 14px;
             text-decoration: none;
             font-size: 15px;
             font-weight: 600;
             text-align: center;
             line-height: 1.3;
+            box-shadow: 0px 4px 14px 0px #5A47FB26;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+
+        .cta a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0px 8px 20px 0px #5A47FB40;
+        }
+
+        .cta a .ico {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            flex: 0 0 36px;
+        }
+
+        .cta a .ico svg {
+            width: 18px;
+            height: 18px;
         }
 
         a.btn-solid {
             background-color: #5A47FB;
+            color: white;
+        }
+
+        a.btn-solid .ico {
+            background-color: #7261FF;
             color: white;
         }
 
@@ -252,15 +330,31 @@
             border: 2px solid #5A47FB;
         }
 
+        a.btn-outline .ico {
+            background-color: #F1EFFF;
+            color: #5A47FB;
+        }
+
         a.btn-demo {
             grid-column: 1 / -1;
-            background-color: #120879;
+            background: linear-gradient(100deg, #120879 0%, #2D1BB8 100%);
             color: white;
+        }
+
+        a.btn-demo .ico {
+            background-color: #5A47FB;
+            color: white;
+        }
+
+        a.btn-demo .chevrons {
+            color: #B7ACFF;
+            font-weight: 600;
+            letter-spacing: -2px;
         }
 
         .cta p.form-link {
             text-align: center;
-            margin-top: 16px;
+            margin-top: 20px;
             font-size: 14px;
         }
 
@@ -268,7 +362,17 @@
             color: #5A47FB;
             display: inline;
             min-height: 0;
+            padding: 0;
+            border-radius: 0;
+            box-shadow: none;
             font-weight: 600;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        .cta p.form-link a:hover {
+            transform: none;
+            box-shadow: none;
         }
 
         /* Footer */
@@ -299,9 +403,11 @@
     <header class="hero">
         <div class="wrap">
             <a href="index.html"><img src="images/Bermuda-logo 1.png" class="logo" alt="Bermuda logo"></a>
-            <h1>Real-time carrier data &amp; payment automation for independent, multi-carrier agencies</h1>
-            <p class="sub">Great meeting you at <strong>INSURCON 2026</strong> — here's what we talked about, in one
-                page.</p>
+            <div class="kicker">Rating &middot; Policy &middot; Agentic AI</div>
+            <h1>Everyone sells AI agents. <span class="accent">We build what they run on.</span></h1>
+            <p class="lede">Real-time carrier data, rating, and policy automation for independent, multi-carrier
+                agencies — connected into digital workflows your team (and your AI) can actually run.</p>
+            <p class="sub">Good to connect at <strong>INSURCON 2026</strong> — here's what we do, in 30 seconds.</p>
             <div class="person">
                 <img src="images/mustafa-basaran.jpg" width="72" height="72" alt="Mustafa Basaran">
                 <div class="who">
@@ -330,36 +436,80 @@
                 workflows on Bermuda. Live carrier data — no double payments, no missed late fees.</p>
         </div>
 
-        <!-- CFD vs IVANS -->
+        <p class="connect-line"><strong>Three products, one platform.</strong> Bermuda connects your rater, CRM, AMS,
+            and carrier portals into automated workflows — and gives AI agents the tools and live data they need to
+            run them.</p>
+
+        <!-- 1 · Rating -->
+        <section class="card rater">
+            <div class="card-kicker">1 &middot; Rating</div>
+            <h2>From purchased lead to bound policy — in seconds.</h2>
+            <p>Our <strong><a href="https://www.thebermuda.us/#product" class="plink">Rater</a></strong> auto-quotes
+                your purchased leads across your carriers, texts the customer a quote link, and hands your agent the
+                quotes pre-built — lead, quote, CRM, bind. Works with TurboRater.</p>
+            <p class="more-link">Try it yourself at <a href="https://demo.quotes.thebermuda.us">demo.quotes.thebermuda.us</a></p>
+        </section>
+
+        <!-- 2 · Policy / Carrier Downloads -->
         <section class="card">
+            <div class="card-kicker">2 &middot; Policy</div>
             <h2>Carrier Downloads — live, not batch</h2>
             <ul class="vs-list">
                 <li><strong>IVANS is batch.</strong> Downloads are hours old by the time they hit your AMS.</li>
-                <li><strong>Carrier Downloads pulls live.</strong> Due amount, due date, and late fees read from the
-                    carrier portal at the moment of payment.</li>
+                <li><strong><a href="https://www.carrierdownloads.com" class="plink">Carrier Downloads</a> pulls
+                        live.</strong> Due amount, due date, and late fees read from the carrier portal at the moment
+                    of payment.</li>
                 <li><strong>So automation actually works.</strong> Payments, cancellations, win-backs, and commission
                     statements run on real numbers — not stale ones.</li>
             </ul>
             <p class="more-link">More at <a href="https://www.carrierdownloads.com">carrierdownloads.com</a></p>
         </section>
 
-        <!-- Rater -->
+        <!-- 3 · Agentic AI -->
         <section class="card rater">
-            <h2>Buying leads? Quote them before your competitor calls.</h2>
-            <p>Our <strong>Rater</strong> auto-quotes purchased leads (EverQuote, QuoteWizard) across your carriers in
-                seconds, texts the customer a quote link, and hands your agent the quotes pre-built. Works with
-                TurboRater.</p>
+            <div class="card-kicker">3 &middot; Agentic AI</div>
+            <h2>Agents that can actually do the work.</h2>
+            <p>An AI agent without tools and live data just talks. Ours come with both — quoting, binding, payments,
+                cancellations, and carrier uploads, even on low-tech portals. Bring your own AI and use our
+                <strong><a href="https://www.thebermuda.us/agentic-ai" class="plink">Agentic AI</a></strong> tools, or
+                let our agents run the workflow end to end.</p>
+            <p class="more-link">More at <a href="https://www.thebermuda.us/agentic-ai">thebermuda.us/agentic-ai</a></p>
         </section>
 
         <!-- CTA row -->
         <div class="cta">
             <h2>Let's keep talking</h2>
             <div class="cta-grid">
-                <a href="tel:+15124288740" class="btn-solid">Tap to call</a>
-                <a href="mailto:mb@thebermuda.us" class="btn-solid">Email Mustafa</a>
-                <a href="mustafa-basaran.vcf" download class="btn-outline">Save contact</a>
-                <a href="https://linkedin.com/company/bermudatech" class="btn-outline">LinkedIn</a>
-                <a href="https://demo.quotes.thebermuda.us" class="btn-demo">See the live Rater demo</a>
+                <a href="tel:+15124288740" class="btn-solid">
+                    <span class="ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.4.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z" />
+                        </svg></span>
+                    Tap to call
+                </a>
+                <a href="mailto:mb@thebermuda.us" class="btn-solid">
+                    <span class="ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+                        </svg></span>
+                    Email Mustafa
+                </a>
+                <a href="mustafa-basaran.vcf" download class="btn-outline">
+                    <span class="ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M12 12c2.2 0 4-1.8 4-4s-1.8-4-4-4-4 1.8-4 4 1.8 4 4 4zm0 2c-2.7 0-8 1.3-8 4v2h16v-2c0-2.7-5.3-4-8-4z" />
+                        </svg></span>
+                    Save contact
+                </a>
+                <a href="https://linkedin.com/company/bermudatech" class="btn-outline">
+                    <span class="ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.3 18.3v-7.7H5.7v7.7h2.6zM7 9.4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm11.3 8.9v-4.4c0-2.4-1.3-3.5-3-3.5-1.4 0-2 .8-2.4 1.3v-1.1h-2.6c0 .7 0 7.7 0 7.7h2.6v-4.3c0-.2 0-.5.1-.6.2-.5.6-1 1.3-1 .9 0 1.3.7 1.3 1.8v4.1h2.7z" />
+                        </svg></span>
+                    LinkedIn
+                </a>
+                <a href="https://demo.quotes.thebermuda.us" class="btn-demo">
+                    <span class="ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M8 5v14l11-7L8 5z" />
+                        </svg></span>
+                    See the live Rater demo&nbsp;<span class="chevrons">&rsaquo;&rsaquo;&rsaquo;</span>
+                </a>
             </div>
             <p class="form-link">Prefer a scheduled walkthrough? <a
                     href="https://form.jotform.com/233375310898160">Request a demo</a></p>

@@ -1,8 +1,8 @@
 # Bermuda LLC — Complete Documentation
 
-> InsurTech company specializing in insurance automation for 10+ years. Bermuda empowers insurance agencies with real-time rating, agentic AI workflows, carrier data integration, and lead automation.
+> InsurTech company specializing in insurance automation for 10+ years. Everyone sells AI agents — Bermuda builds what they run on: real-time carrier data, rating, and policy automation for independent, multi-carrier insurance agencies.
 
-**Tagline:** Sell more with automation
+**Tagline:** Everyone sells AI agents. We build what they run on.
 **Website:** https://www.thebermuda.us
 **Contact:** info@thebermuda.us | (512) 428-8740
 **Address:** 13101 Preston Rd. Ste 110, Dallas, TX 75240
@@ -11,12 +11,13 @@
 
 ## What We Do
 
-- **Bermuda Rater** — Real-time rating engine and integration platform for carriers, MGAs, and agencies
-- **Instant Auto & Home Quotes** — Generate quotes in seconds through an intuitive web app
-- **Carrier Downloads** — Real-time data integration and policy management
-- **Client Portals** — Self-service platforms with payment automation
-- **Lead Management** — Real-time lead integration and automation with top providers
-- **Agentic AI Solutions** — AI-powered automation for quoting, binding, payments, and servicing
+Three products, one platform. Bermuda connects an agency's rater, CRM, AMS, and carrier portals into digital automated workflows — and gives AI agents the tools and live data they need to run them. An AI agent without tools and real-time data access just talks; Bermuda provides both. Agent-agnostic: bring any AI agent (or use Bermuda's) — whichever AI you choose, it runs on Bermuda's tools and real-time carrier data, both directions (download live data in, upload payments/documents/actions out).
+
+1. **Rating** — Bermuda Rater: lead → quote → CRM → bind automation. Real-time rating engine and integration platform for carriers, MGAs, and agencies; instant Auto & Home quotes; real-time lead integration with top providers
+2. **Policy** — Carrier Downloads: live carrier-portal data (due amounts, due dates, late fees, policy changes) read at the moment of action — not hours-old batch files (the key difference vs IVANS); powers payment, cancellation, win-back, and commission automation
+3. **Agentic AI** — Tools for agentic AI operations plus ready-to-work AI agents for quoting, binding, payments, carrier uploads, and servicing — even on low-tech portals
+
+Also: client portals (self-service platforms with payment automation) and 30+ integrations.
 
 ## Key Stats
 
@@ -80,7 +81,7 @@ Bermuda Rater works in any state the agency operates in. It connects to the agen
 
 **Page:** https://www.thebermuda.us/agentic-ai.html
 
-Bermuda's Agentic AI automates repetitive insurance workflows end-to-end, replacing manual tasks with reliable, tireless AI agents.
+An AI agent without tools and live data just talks. Bermuda's Agentic AI runs quoting, policy binding, payments, and carrier uploads on real-time carrier data — even across low-tech portals. Agencies can bring their own AI and use Bermuda's tools, or let Bermuda's agents run the workflow end to end.
 
 ### Real-Time Quoting Automation
 Instantly generate quotes with precision. Eliminates manual data entry and accelerates the quoting process.
@@ -120,7 +121,7 @@ Replace repetitive human tasks with AI agents that handle routine servicing requ
 Real-time data integration and policy management platform. Works with any carrier the agency is appointed with, in any state they operate in.
 
 ## Real-Time Data Integration
-Policy adjustments and payment updates flow directly from carriers, keeping agencies synchronized with customers. Prevents churn by ensuring data is always current.
+Policy adjustments and payment updates flow directly from carriers, keeping agencies synchronized with customers. Prevents churn by ensuring data is always current. Unlike batch-based downloads (e.g., IVANS), Carrier Downloads reads due amounts, due dates, late fees, and statuses live from carrier portals at the moment of action — which is what makes payment and cancellation automation safe to run.
 
 ## Master and Manage Your Data
 Take control of your information with tools focused on data accuracy and integrity. All carrier data in one place.
@@ -230,46 +231,11 @@ Policy, payment, and report data sync to your financial systems.
 
 # Pricing
 
-**Page:** https://www.thebermuda.us/#pricing
+Bermuda focuses on enterprise insurance agencies — custom workflows, multiple data sources, high policy volume.
 
-All plans include a 1-month free trial.
+**Pricing is custom**, scoped to the agency's workflows, carriers, integrations, and volume. No fixed plan list. A typical engagement covers real-time Rater integration, Carrier Downloads (live carrier-portal data and payment automation), Agentic AI tools and agents, prefill/public data services, Open API/Webhooks, custom CRM/AMS/accounting integrations, and unlimited quotes.
 
-## Basic — $249/month
-
-Best for small agencies with few locations operating in one state.
-
-- 1 Business Line (Auto)
-- Single State Quotes
-- Page personalization
-- Email/SMS Notifications
-- 249 quotes per month
-- Paid data and click leads access
-
-## Business — $499/month
-
-Best for growing multi-state agencies.
-
-- 1 Business Line (Auto)
-- Multi-State Quotes
-- Customizable Coverage Packages
-- Embed 3rd Party JavaScripts
-- 999 quotes per month
-- Paid data and click leads access
-
-## Enterprise — Custom Pricing
-
-Best for agencies with custom workflows and multiple data sources.
-
-- Real-time Rater Integration
-- Auto & Home Lines
-- Online Policy Purchase
-- Prefill & Public Data Services
-- Open API/Webhooks access
-- Unlimited monthly quotes
-- Paid data and click leads access
-
-**Get Started:** info@thebermuda.us | (512) 428-8740 | https://demo.quotes.thebermuda.us
-
+**Contact Sales:** info@thebermuda.us | (512) 428-8740 | demo request: https://form.jotform.com/233375310898160
 ---
 
 # Frequently Asked Questions
@@ -282,7 +248,18 @@ Best for agencies with custom workflows and multiple data sources.
 A rating engine and integration platform for carriers, MGAs, and agencies enabling real-time quote generation, API connections, and automated workflows powering customer portals and AMS systems.
 
 **Who is it for?**
-Insurance carriers, MGAs, agency owners, and digital agencies building insurance technology. Integrates with rating APIs, CRMs, conversion tools, and document systems.
+Bermuda focuses on enterprise insurance agencies — operations with custom workflows, multiple data sources, and high policy volume. Also serves carriers, MGAs, and digital agencies building insurance technology. Integrates with rating APIs, CRMs, conversion tools, and document systems.
+
+## AI Agents & Real-Time Data
+
+**Can my own AI agent use Bermuda?**
+Yes — Bermuda is agent-agnostic. Whichever AI agent you choose (or Bermuda's own), it runs on Bermuda's tools and real-time carrier data: quoting, policy binding, payments, and carrier uploads — live data downloads in, actions and documents upload out.
+
+**How is Carrier Downloads different from IVANS?**
+IVANS is batch — downloads are hours old by the time they reach the AMS. Carrier Downloads reads due amounts, due dates, late fees, and statuses live from carrier portals at the moment of action, which makes payment and cancellation automation safe to run.
+
+**How much does it cost?**
+Pricing is custom and scoped to the agency's workflows, carriers, integrations, and volume — no fixed plan list. Contact sales: info@thebermuda.us | (512) 428-8740.
 
 ## Rating & Quoting
 
@@ -290,7 +267,7 @@ Insurance carriers, MGAs, agency owners, and digital agencies building insurance
 TurboRater and Direct Binding, with modular architecture enabling additional quoting engines upon request.
 
 **Can I get quotes for multiple states?**
-Yes. Bermuda Rater works in any state the agency operates in — it integrates with the agency's preferred real-time rater and their active carriers. Multi-state quoting is available on Business and Enterprise plans.
+Yes. Bermuda Rater works in any state the agency operates in — it integrates with the agency's preferred real-time rater and their active carriers. Multi-state quoting is included — pricing is custom and scoped per agency.
 
 ## Integrations
 

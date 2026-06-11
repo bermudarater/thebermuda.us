@@ -46,6 +46,6 @@ Bermuda Rater works in any state the agency operates in. It connects to the agen
 
 ## Learn More
 
-- **Pricing:** https://www.thebermuda.us/#pricing
+- **Pricing:** https://www.thebermuda.us/docs/md/pricing.md (enterprise — custom, contact sales)
 - **Integrations:** https://www.thebermuda.us/#integration
 - **Agentic AI:** https://www.thebermuda.us/agentic-ai.html

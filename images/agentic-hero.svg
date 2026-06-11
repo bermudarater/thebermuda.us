@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="560" viewBox="0 0 780 560" font-family="Poppins, 'Segoe UI', sans-serif">
+  <title>Two-way data integration for AI agents: live carrier data downloads in, payments and documents upload out</title>
+  <defs>
+    <marker id="arrowP" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#5A47FB"/>
+    </marker>
+    <marker id="arrowN" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#120879"/>
+    </marker>
+  </defs>
+
+  <!-- Sync loop arcs -->
+  <path d="M600 188 Q390 56 180 188" fill="none" stroke="#5A47FB" stroke-width="3" stroke-dasharray="7 8" marker-end="url(#arrowP)"/>
+  <path d="M180 372 Q390 504 600 372" fill="none" stroke="#120879" stroke-width="3" stroke-dasharray="7 8" marker-end="url(#arrowN)"/>
+
+  <!-- Animated data dots -->
+  <circle r="6" fill="#5A47FB" opacity="0.9">
+    <animateMotion dur="4.5s" repeatCount="indefinite" path="M600 188 Q390 56 180 188"/>
+  </circle>
+  <circle r="6" fill="#120879" opacity="0.9">
+    <animateMotion dur="4.5s" repeatCount="indefinite" begin="2.2s" path="M180 372 Q390 504 600 372"/>
+  </circle>
+
+  <!-- Download label chip (top apex) -->
+  <g>
+    <rect x="252" y="100" width="276" height="48" rx="24" fill="#ffffff" stroke="#5A47FB" stroke-width="2"/>
+    <text x="390" y="120" text-anchor="middle" fill="#5A47FB" font-size="14" font-weight="600" letter-spacing="1.5">&#9660; DOWNLOAD &#183; LIVE DATA IN</text>
+    <text x="390" y="138" text-anchor="middle" fill="#120879" font-size="11" font-weight="500">due amounts &#183; due dates &#183; late fees &#183; statuses</text>
+  </g>
+
+  <!-- Upload label chip (bottom apex) -->
+  <g>
+    <rect x="252" y="412" width="276" height="48" rx="24" fill="#ffffff" stroke="#120879" stroke-width="2"/>
+    <text x="390" y="432" text-anchor="middle" fill="#120879" font-size="14" font-weight="600" letter-spacing="1.5">&#9650; UPLOAD &#183; ACTIONS OUT</text>
+    <text x="390" y="450" text-anchor="middle" fill="#120879" font-size="11" font-weight="500" opacity="0.75">payments &#183; documents &#183; endorsements</text>
+  </g>
+
+  <!-- Agency node (left) -->
+  <g>
+    <rect x="36" y="212" width="156" height="136" rx="16" fill="#ffffff" stroke="#5A47FB" stroke-width="3"/>
+    <text x="114" y="240" text-anchor="middle" fill="#120879" font-size="15" font-weight="600" letter-spacing="1.5">AGENCY</text>
+    <rect x="56" y="252" width="116" height="24" rx="12" fill="#F1EFFF"/>
+    <text x="114" y="269" text-anchor="middle" fill="#5A47FB" font-size="12" font-weight="600">CRM</text>
+    <rect x="56" y="282" width="116" height="24" rx="12" fill="#F1EFFF"/>
+    <text x="114" y="299" text-anchor="middle" fill="#5A47FB" font-size="12" font-weight="600">AMS</text>
+    <rect x="56" y="312" width="116" height="24" rx="12" fill="#F1EFFF"/>
+    <text x="114" y="329" text-anchor="middle" fill="#5A47FB" font-size="12" font-weight="600">RATER</text>
+  </g>
+
+  <!-- Carrier portals node (right) -->
+  <g>
+    <path d="M618 304c-13 0-23-10-23-23 0-11 8-20 18-22 3-15 16-26 31-26 13 0 24 7 29 18 2-1 5-1 8-1 13 0 23 10 23 23s-10 24-23 24z" fill="#5A47FB"/>
+    <text x="666" y="288" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="600" letter-spacing="1">&#9729;</text>
+    <text x="668" y="330" text-anchor="middle" fill="#120879" font-size="14" font-weight="600">CARRIER</text>
+    <text x="668" y="348" text-anchor="middle" fill="#120879" font-size="14" font-weight="600">PORTALS</text>
+  </g>
+
+  <!-- Center: AI agent on Bermuda tools -->
+  <g>
+    <!-- antenna -->
+    <line x1="390" y1="186" x2="390" y2="202" stroke="#5A47FB" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="390" cy="180" r="6" fill="#5A47FB"/>
+    <!-- head -->
+    <rect x="354" y="202" width="72" height="56" rx="15" fill="#5A47FB"/>
+    <circle cx="376" cy="226" r="6.5" fill="#ffffff"/>
+    <circle cx="404" cy="226" r="6.5" fill="#ffffff"/>
+    <path d="M377 242q13 9 26 0" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+    <!-- body -->
+    <rect x="346" y="264" width="88" height="70" rx="17" fill="#ffffff" stroke="#120879" stroke-width="3"/>
+    <path d="M373 284l13 14-13 14" fill="none" stroke="#5A47FB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M394 284l13 14-13 14" fill="none" stroke="#120879" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- arms -->
+    <line x1="346" y1="288" x2="322" y2="306" stroke="#120879" stroke-width="6" stroke-linecap="round"/>
+    <line x1="434" y1="288" x2="458" y2="306" stroke="#120879" stroke-width="6" stroke-linecap="round"/>
+    <!-- platform -->
+    <rect x="306" y="348" width="168" height="36" rx="10" fill="#120879"/>
+    <text x="390" y="371" text-anchor="middle" fill="#ffffff" font-size="12.5" font-weight="600" letter-spacing="1.5">BERMUDA TOOLS</text>
+    <!-- sparkles -->
+    <text x="322" y="200" fill="#5A47FB" font-size="20">&#10022;</text>
+    <text x="452" y="216" fill="#B7ACFF" font-size="15">&#10022;</text>
+  </g>
+</svg>
