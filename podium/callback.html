@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    <meta name="referrer" content="no-referrer">
+    <title>Podium Authorization | Bermuda</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" title="Favicon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: 'Poppins', sans-serif;
+            background: #F1EFFF;
+            color: #120879;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px 16px;
+        }
+
+        .card {
+            width: 100%;
+            max-width: 560px;
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0px 4px 24px #0000001A;
+            padding: 32px 28px;
+        }
+
+        .logo { height: 36px; margin-bottom: 24px; }
+
+        h1 { font-size: 22px; font-weight: 600; margin: 0 0 8px; }
+
+        .lead { font-size: 14px; color: #4b4a6b; margin: 0 0 24px; line-height: 1.6; }
+
+        .field { margin-bottom: 18px; }
+
+        .field label {
+            display: block;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: .06em;
+            color: #5A47FB;
+            margin-bottom: 6px;
+        }
+
+        .row { display: flex; gap: 8px; align-items: stretch; }
+
+        .value {
+            flex: 1;
+            min-width: 0;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+            font-size: 13px;
+            background: #F1EFFF;
+            border: 1px solid #D9D4FF;
+            border-radius: 10px;
+            padding: 10px 12px;
+            word-break: break-all;
+            user-select: all;
+        }
+
+        button {
+            font-family: inherit;
+            font-size: 13px;
+            font-weight: 500;
+            border: 0;
+            border-radius: 10px;
+            padding: 0 16px;
+            cursor: pointer;
+            background: #5A47FB;
+            color: #fff;
+            white-space: nowrap;
+            transition: background .15s;
+        }
+
+        button:hover { background: #7261FF; }
+        button.done { background: #1f9d55; }
+
+        .actions { display: flex; gap: 8px; margin-top: 6px; }
+
+        .actions > * { flex: 1; padding: 12px 16px; font-size: 14px; text-align: center; }
+
+        .btn-outline {
+            font-weight: 500;
+            border-radius: 10px;
+            border: 1.5px solid #5A47FB;
+            color: #5A47FB;
+            background: #fff;
+            text-decoration: none;
+        }
+
+        .btn-outline:hover { background: #F1EFFF; }
+        .btn-outline.done { background: #1f9d55; border-color: #1f9d55; color: #fff; }
+
+        .btn-primary {
+            font-weight: 500;
+            border-radius: 10px;
+            border: 1.5px solid #5A47FB;
+            background: #5A47FB;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .btn-primary:hover { background: #7261FF; }
+
+        .note { font-size: 12px; color: #6b6a88; margin: 18px 0 0; line-height: 1.5; }
+
+        .error {
+            background: #fff1f1;
+            color: #a12020;
+            border-radius: 10px;
+            padding: 12px 14px;
+            font-size: 14px;
+        }
+
+        [hidden] { display: none !important; }
+    </style>
+</head>
+
+<body>
+    <main class="card">
+        <img src="/images/Bermuda-logo 2.png" alt="Bermuda" class="logo">
+        <h1 id="title">Podium connected</h1>
+        <p class="lead" id="lead">Email the code and state to us at info@thebermuda.us, or copy them and paste them back where you started the Podium setup.</p>
+
+        <div id="result">
+            <div class="field">
+                <label>Code</label>
+                <div class="row">
+                    <div class="value" id="code"></div>
+                    <button type="button" data-copy="code">Copy</button>
+                </div>
+            </div>
+
+            <div class="field">
+                <label>State</label>
+                <div class="row">
+                    <div class="value" id="state"></div>
+                    <button type="button" data-copy="state">Copy</button>
+                </div>
+            </div>
+
+            <div class="actions">
+                <a class="btn-primary" id="email" href="mailto:info@thebermuda.us">Email us</a>
+                <button type="button" class="btn-outline" id="copy-all">Copy both</button>
+            </div>
+            <p class="note">The code is single-use and expires quickly, so paste it right away. Only send it to Bermuda.</p>
+        </div>
+
+        <div class="error" id="error" hidden></div>
+    </main>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const code = params.get('code');
+        const state = params.get('state');
+        const err = params.get('error');
+
+        if (err || !code) {
+            document.getElementById('result').hidden = true;
+            document.getElementById('lead').hidden = true;
+            document.getElementById('title').textContent = 'Podium not connected';
+            const box = document.getElementById('error');
+            box.hidden = false;
+            box.textContent = err
+                ? 'Podium returned an error: ' + err + (params.get('error_description') ? ' (' + params.get('error_description') + ')' : '')
+                : 'No authorization code found in this link. Start the Podium connection again.';
+        } else {
+            document.getElementById('code').textContent = code;
+            document.getElementById('state').textContent = state || '(none)';
+            document.getElementById('email').href = 'mailto:info@thebermuda.us'
+                + '?subject=' + encodeURIComponent('Podium authorization code')
+                + '&body=' + encodeURIComponent('Podium authorization:\n\ncode: ' + code + '\nstate: ' + (state || '') + '\n');
+        }
+
+        async function copy(text, btn) {
+            try {
+                await navigator.clipboard.writeText(text);
+            } catch (e) {
+                const ta = document.createElement('textarea');
+                ta.value = text;
+                document.body.appendChild(ta);
+                ta.select();
+                document.execCommand('copy');
+                ta.remove();
+            }
+            const label = btn.textContent;
+            btn.textContent = 'Copied';
+            btn.classList.add('done');
+            setTimeout(() => { btn.textContent = label; btn.classList.remove('done'); }, 1500);
+        }
+
+        document.querySelectorAll('[data-copy]').forEach(btn => {
+            btn.addEventListener('click', () => copy(document.getElementById(btn.dataset.copy).textContent, btn));
+        });
+
+        document.getElementById('copy-all').addEventListener('click', e => {
+            copy('code: ' + (code || '') + '\nstate: ' + (state || ''), e.currentTarget);
+        });
+    </script>
+</body>
+
+</html>

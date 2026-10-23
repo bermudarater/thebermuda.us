@@ -7,6 +7,7 @@ Allow: /
 # Personal contact card + conference landing page — not for indexing
 Disallow: /mustafa-basaran.vcf
 Disallow: /insurcon
+Disallow: /podium/
 
 # AI Search Crawlers — explicitly welcome
 User-agent: GPTBot

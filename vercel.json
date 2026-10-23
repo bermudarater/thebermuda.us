@@ -29,6 +29,14 @@
         { "key": "Content-Type", "value": "text/markdown; charset=utf-8" },
         { "key": "X-Robots-Tag", "value": "all" }
       ]
+    },
+    {
+      "source": "/podium/(.*)",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex, nofollow, noarchive" },
+        { "key": "Referrer-Policy", "value": "no-referrer" },
+        { "key": "Cache-Control", "value": "no-store" }
+      ]
     }
   ]
 }
